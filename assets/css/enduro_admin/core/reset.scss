@@ -1,0 +1,22 @@
+html,
+body {
+	margin: 0;
+}
+
+html {
+	height: 100%;
+}
+
+
+body {
+	min-height: 100%;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+*:focus {
+	outline: 0;
+}

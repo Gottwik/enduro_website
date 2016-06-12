@@ -1,0 +1,24 @@
+.screen {
+	width: 100vw;
+	min-height: 100vh;
+	background-size: cover;
+	background-position: top center;
+
+	&.black {
+		background-color: $black;
+	}
+
+	&.blue {
+		background-color: $blue;
+		color: $white
+	}
+
+	&.veil {
+		@include media-breakpoint-down(lg) {
+			&:nth-child(3n+1){
+				clear: left;
+			}
+		}
+	}
+
+}

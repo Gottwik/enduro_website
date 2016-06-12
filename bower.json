@@ -1,0 +1,24 @@
+{
+  "name": "enduro_scaffolding",
+  "description": "",
+  "main": "assets/vendor/enduro/index.js",
+  "authors": [
+    "enduro_author"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.2",
+    "kiskabricks_wedgecss": "^1.0.0",
+    "jquery": "^3.0.0",
+    "requirejs": "^2.2.0"
+  }
+}

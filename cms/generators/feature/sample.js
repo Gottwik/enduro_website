@@ -1,0 +1,3 @@
+{
+	name: 'enduro feature - sample'
+}

@@ -1,0 +1,36 @@
+.feature {
+	padding: 20px;
+	margin-bottom: 50px;
+
+	i {
+		@include font-size(xl);
+		margin-left: 2px;
+		margin-bottom: 5px;
+	}
+
+	@include media-breakpoint-down(lg) {
+		&:nth-child(3n+1){
+			clear: left;
+		}
+	}
+
+	@include media-breakpoint-down(md) {
+		&:nth-child(3n+1){
+			clear: none;
+		}
+
+		&:nth-child(2n+1){
+			clear: left;
+		}
+	}
+
+	@include media-breakpoint-up(xl) {
+		&:nth-child(4n+1){
+			clear: left;
+		}
+	}
+}
+
+.feature-row {
+	margin-bottom: 50px;
+}
