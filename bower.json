@@ -1,9 +1,9 @@
 {
-  "name": "enduro_scaffolding",
+  "name": "enduro_website",
   "description": "",
   "main": "assets/vendor/enduro/index.js",
   "authors": [
-    "enduro_author"
+    "gottwik@gmail.com"
   ],
   "license": "ISC",
   "homepage": "",
