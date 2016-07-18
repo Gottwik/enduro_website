@@ -14,9 +14,19 @@
 	}
 
 	&.veil {
-		@include media-breakpoint-down(lg) {
-			&:nth-child(3n+1){
-				clear: left;
+		@include media-breakpoint-down(sm) {
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba($white, 0.9);
+			}
+
+			> * {
+				position: relative;
 			}
 		}
 	}

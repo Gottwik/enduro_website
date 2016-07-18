@@ -1,3 +1,7 @@
 .screen-padder {
 	padding: 50px 70px;
+
+	@include media-breakpoint-down(sm) {
+		padding: 50px 20px;
+	}
 }

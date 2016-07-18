@@ -1,6 +1,11 @@
 h2 {
 	@include font-size(lg);
 	font-weight: 100;
-	margin-top: -20px;
+	margin-top: 0;
 	margin-bottom: 0;
+
+	@include media-breakpoint-down(sm) {
+		@include font-size(md);
+		font-weight: 300;
+	}
 }

@@ -2,7 +2,7 @@
 
 Hosted here: https://kiskadigitalmedia.github.io/Enduro/
 
-This website is made in enduro and has bower dependencies. To get it running locally follow these steps:
+This website is made in [enduro.js](https://github.com/kiskadigitalmedia/Enduro) and has bower dependencies. To get it running locally follow these steps:
 
 1. Make sure you have node.js installed. Grab it here if you don't: https://nodejs.org/en/download/
 1. Install enduro globally - `$ npm install enduro -g`
