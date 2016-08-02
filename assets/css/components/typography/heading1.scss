@@ -1,0 +1,6 @@
+h1 {
+	@include font-size(xl);
+	font-weight: 300;
+	margin: 10px 0 0 -5px;
+	line-height: 1;
+}

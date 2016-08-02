@@ -1,0 +1,11 @@
+code {
+	@include no-smooth-font();
+	@include font-size(xs);
+	display: inline !important;
+	border-radius: 3px;
+	padding: 5px 10px !important;
+}
+
+pre code {
+	display: inherit !important;
+}

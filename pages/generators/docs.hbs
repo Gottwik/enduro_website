@@ -1,0 +1,26 @@
+{{#>body}}
+
+	<div class="page-container">
+		<div class="panel">
+
+			<div class="row">
+				<div class="col-md-9">
+					<h1>{{title}}</h1>
+					<div class="markdown-block">{{{abstracted_content.marked_doc}}}</div>
+				</div>
+				<div class="col-md-3">
+					<div class="wedge-8x"></div>
+					<div class="docs-list-placeholder"></div>
+					<ul class="docs-list">
+						<li class="navigation">Navigation</li>
+						{{#each abstracted_content.contents}}
+							<li><a href="#{{link}}">{{heading}}</a></li>
+						{{/each}}
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+{{/body}}

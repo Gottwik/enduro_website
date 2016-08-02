@@ -1,3 +1,1 @@
-{
-	features: '@@global.features',
-}
+{}

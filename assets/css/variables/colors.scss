@@ -12,6 +12,6 @@ $light-blue: lighten($blue, 30%);
 
 $primary-text-color: $grey;
 
-$primary-background-color: #f7f7f7;
+$primary-background-color: $white;
 $light-background-color: lighten($grey, 72%);
 $primary-color-hover: darken($primary-color, 20%);

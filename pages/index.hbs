@@ -1,28 +1,23 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>enduro.js - Minimalistic, lean & mean, node.js cms</title>
-		<link rel="stylesheet" href="assets/css/main.css">
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
-		<link href='https://fonts.googleapis.com/css?family=Lato:400,300,100' rel='stylesheet' type='text/css'>
-		<script src="https://use.fontawesome.com/74b597d324.js"></script>
-
-	</head>
-	<body>
-		<div class="screen-menu">
-		</div>
-
-		<div class="screen veil" style="background-image: url(assets/img/mockups/room.jpg)">
+{{#>body}}
+	<div class="screen veil" style="background-image: url(assets/img/mockups/room.jpg)">
 			<div class="screen-padder text-center">
-				<div class="subwedge-xl-down-4x"></div>
+				<div class="wedge-5x"></div>
 				<div class="subwedge-lg-down-4x"></div>
-				<h1>Enduro</h1>
+				<h1>Enduro.js</h1>
 				<h2><span>Minimalistic</span><span>, lean & mean</span><span>, node.js cms</span></h2>
-				<a href="https://badge.fury.io/js/enduro"><img src="https://badge.fury.io/js/enduro.svg"></a>
-<a href="https://travis-ci.org/kiskadigitalmedia/Enduro"><img src="https://travis-ci.org/kiskadigitalmedia/Enduro.svg?branch=master"></a>
-<a href="https://coveralls.io/github/kiskadigitalmedia/Enduro?branch=master"><img src="https://coveralls.io/repos/github/kiskadigitalmedia/Enduro/badge.svg?branch=master"></a>
-<a href="https://codeclimate.com/github/kiskadigitalmedia/Enduro"><img src="https://codeclimate.com/github/kiskadigitalmedia/Enduro/badges/gpa.svg"></a>
+
+				<a href="https://www.npmjs.com/package/enduro">
+					<img src="https://badge.fury.io/js/enduro.svg">
+				</a>
+
+				<a href="https://www.npmjs.com/package/enduro">
+					<img src="https://img.shields.io/npm/dm/enduro.svg?maxAge=2592000">
+				</a>
+
+				<a href="https://travis-ci.org/kiskadigitalmedia/Enduro"><img src="https://travis-ci.org/kiskadigitalmedia/Enduro.svg?branch=master"></a>
+				<a href="https://coveralls.io/github/kiskadigitalmedia/Enduro?branch=master"><img src="https://coveralls.io/repos/github/kiskadigitalmedia/Enduro/badge.svg?branch=master"></a>
+				<a href="https://codeclimate.com/github/kiskadigitalmedia/Enduro"><img src="https://codeclimate.com/github/kiskadigitalmedia/Enduro/badges/gpa.svg"></a>
+				<a href="https://raw.githubusercontent.com/kiskadigitalmedia/Enduro/master/License.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
 			</div>
 		</div>
 
@@ -31,7 +26,7 @@
 				<h1>Why enduro?</h1>
 				<div class="wedge-3x"></div>
 				<div class="row feature-row">
-					{{#each features}}
+					{{#each global.features}}
 						<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 feature">
 							<i class="fa fa-{{icon}}" aria-hidden="true"></i>
 							<div class="wedge"></div>
@@ -42,24 +37,4 @@
 				</div>
 			</div>
 		</div>
-
-		<div class="screen" >
-			<div class="screen-padder">
-				<h1>Getting started</h1>
-				<div class="wedge-4x"></div>
-
-				<p><span class="stepnumber">1</span>Make sure you have node.js installed. Grab it here if you don't: <a href="https://nodejs.org/en/download/">Nodejs installer</a></p>
-				<p><span class="stepnumber">2</span>Run <span class="codebox">npm install enduro -g</span> in your terminal. This will install enduro.</p>
-				<p><span class="stepnumber">3</span>Run <span class="codebox">enduro create myproject</span>. This will create new folder /myproject with the enduro project</p>
-				<p><span class="stepnumber">4</span>Go in the newly created folder by running <span class="codebox">cd myproject</span>.</p>
-				<p><span class="stepnumber">5</span>Start enduro in development mode by running simply <span class="codebox">enduro</span>. Browser window should open with the website running.</p>
-				<p><span class="stepnumber">6</span>Folder <span class="codebox url">/pages</span> stores all the page templates</p>
-				<p><span class="stepnumber">7</span>Folder <span class="codebox url">/cms</span> stores all the content data</p>
-				<p><span class="stepnumber">8</span>Folder <span class="codebox url">/components</span> stores all the components, templates, or partial views - building blocks which you can use to build the website.</p>
-				<p><span class="stepnumber">9</span>Folder <span class="codebox url">/assets</span> stores scss, js, icons, images and all the static assets for your website</p>
-
-			</div>
-		</div>
-
-	</body>
-</html>
+{{/body}}

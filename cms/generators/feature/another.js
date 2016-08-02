@@ -1,3 +1,0 @@
-{
-	name: 'enduro feature - another'
-}

@@ -1,0 +1,24 @@
+.docs-list {
+	padding-left: 20px;
+	padding-top: 50px;
+
+	.navigation {
+		font-weight: 400;
+	}
+
+	&.slime {
+		position: fixed;
+		top: 0;
+	}
+
+	li {
+
+		a {
+			text-decoration: none;
+		}
+	}
+
+	@include media-breakpoint-down(sm) {
+		display: none;
+	}
+}
