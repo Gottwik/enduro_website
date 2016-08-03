@@ -2,6 +2,7 @@
 
 	a {
 		font-weight: 400;
+		color: $blue !important;
 	}
 
 	.markdown_folder {
@@ -14,5 +15,10 @@
 			@include fa-icon()
 			margin-right: 5px;
 		}
+	}
+
+	li {
+		list-style-type: circle;
+		margin-left: 18px;
 	}
 }

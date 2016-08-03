@@ -3,4 +3,15 @@ h3 {
 	font-weight: 100;
 	text-align: left;
 	padding-bottom: 10px;
+
+	// modifiers
+	&.short {
+		margin: 0;
+		padding: 0;
+	}
+
+	&.line {
+		border-bottom: 1px solid lighten($grey, 70%);
+	}
+
 }

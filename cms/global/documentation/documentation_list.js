@@ -11,10 +11,29 @@
 					label: 'Templates'
 				},
 				{
+					label: 'Content files'
+				}
+			]
+		},
+		{
+			label: 'Using Enduro.js',
+			topics: [
+				{
+					label: 'Cli'
+				}
+			]
+		},
+		{
+			label: 'Build tools',
+			topics: [
+				{
 					label: 'Sass'
 				},
 				{
-					label: 'Cli'
+					label: 'Iconfont generator'
+				},
+				{
+					label: 'Spritesheet generator'
 				}
 			]
 		},
@@ -29,14 +48,39 @@
 				},
 				{
 					label: 'Templatitator'
+				},
+				{
+					label: 'Multilingual support'
 				}
 			]
 		},
 		{
-			label: 'Build tools',
+			label: 'Admin interface',
 			topics: [
 				{
-					label: 'Iconfont generator'
+					label: 'Introduction to admin'
+				},
+				{
+					label: 'Termination'
+				}
+			]
+		},
+		{
+			label: 'Deployment',
+			topics: [
+				{
+					label: 'Heroku'
+				},
+				{
+					label: 'Deploying static pages'
+				}
+			]
+		},
+		{
+			label: 'Understanding enduro',
+			topics: [
+				{
+					label: 'Kitchen'
 				}
 			]
 		}
