@@ -1,0 +1,15 @@
+.splash-holder {
+	height: 100%;
+
+	.splash {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	&:before {
+		content: '';
+		height: 100%;
+		vertical-align: middle;
+		display: inline-block;
+	}
+}

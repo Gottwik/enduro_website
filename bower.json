@@ -20,7 +20,8 @@
     "kiskabricks_wedgecss": "^1.0.0",
     "jquery": "^3.0.0",
     "requirejs": "^2.2.0",
-    "font-awesome": "^4.6.3"
+    "font-awesome": "^4.6.3",
+    "kiskabricks_scroller": "^1.0.0"
   },
   "resolutions": {
     "jquery": "^3.0.0"

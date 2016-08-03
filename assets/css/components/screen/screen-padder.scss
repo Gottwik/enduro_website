@@ -1,7 +1,16 @@
 .screen-padder {
 	padding: 50px 70px;
+	z-index: 2;
 
 	@include media-breakpoint-down(sm) {
 		padding: 50px 20px;
+	}
+
+	&.dark {
+		color: $white;
+	}
+
+	&.full {
+		@include full();
 	}
 }

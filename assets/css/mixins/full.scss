@@ -1,0 +1,7 @@
+@mixin full($padding: 0px) {
+	position: absolute;
+	left: $padding;
+	top: $padding;
+	width: calc(100% - #{2 * $padding});
+	height: calc(100% - #{2 * $padding});
+}

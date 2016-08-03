@@ -1,27 +1,24 @@
 {{#>body}}
-	<div class="screen veil" style="background-image: url(assets/img/mockups/room.jpg)">
-			<div class="screen-padder text-center">
-				<div class="wedge-5x"></div>
-				<div class="subwedge-lg-down-4x"></div>
-				<h1>Enduro.js</h1>
-				<h2><span>Minimalistic</span><span>, lean & mean</span><span>, node.js cms</span></h2>
+	<div class="fixed-screen-holder"></div>
+	<div class="screen veil gradient fixed" style="background-image: url(assets/img/mockups/room.jpg)">
+			<video autoplay loop class="fullvideo">
+				<source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/We-Work-We-Wait.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+				<source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/We-Work-We-Wait.mp4" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+			</video>
+			<div class="screen-padder text-center dark full">
 
-				<a href="https://www.npmjs.com/package/enduro">
-					<img src="https://badge.fury.io/js/enduro.svg">
-				</a>
+				<div class="wedge-3x"></div>
+				<h1 class="short large">Enduro.js</h1>
+				<h2 class="short"><span>Minimalistic</span><span>, lean & mean</span><span>, node.js cms</span></h2>
+				<div class="badges-holder">
+					{{>badges}}
+				</div>
 
-				<a href="https://www.npmjs.com/package/enduro">
-					<img src="https://img.shields.io/npm/dm/enduro.svg?maxAge=2592000">
-				</a>
 
-				<a href="https://travis-ci.org/kiskadigitalmedia/Enduro"><img src="https://travis-ci.org/kiskadigitalmedia/Enduro.svg?branch=master"></a>
-				<a href="https://coveralls.io/github/kiskadigitalmedia/Enduro?branch=master"><img src="https://coveralls.io/repos/github/kiskadigitalmedia/Enduro/badge.svg?branch=master"></a>
-				<a href="https://codeclimate.com/github/kiskadigitalmedia/Enduro"><img src="https://codeclimate.com/github/kiskadigitalmedia/Enduro/badges/gpa.svg"></a>
-				<a href="https://raw.githubusercontent.com/kiskadigitalmedia/Enduro/master/License.md"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
 			</div>
 		</div>
 
-		<div class="screen blue">
+		<div class="screen colored">
 			<div class="screen-padder">
 				<h1>Why enduro?</h1>
 				<div class="wedge-3x"></div>
@@ -30,10 +27,11 @@
 						<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 feature">
 							<i class="fa fa-{{icon}}" aria-hidden="true"></i>
 							<div class="wedge"></div>
-							<h2>{{title}}</h2>
+							<h2 class="short">{{title}}</h2>
 							<p>{{text}}</p>
 						</div>
 					{{/each}}
+					<div class="clearfix"></div>
 				</div>
 			</div>
 		</div>

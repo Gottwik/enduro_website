@@ -3,19 +3,26 @@
 	min-height: 100vh;
 	background-size: cover;
 	background-position: top center;
+	position: relative;
 
+	// modifiers
 	&.black {
 		background-color: $black;
 	}
 
 	&.blue {
 		background-color: $blue;
-		color: $white
+		color: $white;
+	}
+
+	&.colored {
+		background-color: $accent;
+		color: $white;
 	}
 
 	&.veil {
 		@include media-breakpoint-down(sm) {
-			&:before {
+			&:after {
 				content: '';
 				position: absolute;
 				top: 0;
@@ -31,4 +38,22 @@
 		}
 	}
 
+	&.gradient {
+		&:before {
+			content: '';
+			@include full();
+			background: linear-gradient(to bottom, rgba($black, 1) 5%, rgba($black, 0) 50%);
+			z-index: 1;
+		}
+	}
+
+	&.fixed {
+		position: fixed;
+		top: 0;
+	}
+
+}
+
+.fixed-screen-holder {
+	height: 100vh;
 }

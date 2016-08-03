@@ -1,0 +1,11 @@
+.fullvideo {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 177.77777778vh; /* 100 * 16 / 9 */
+	min-width: 100%;
+	min-height: 56.25vw; /* 100 * 9 / 16 */
+	left: 50%; /* % of surrounding element */
+    top: 50%;
+    transform: translate(-50%, -50%); /* % of current element */
+}

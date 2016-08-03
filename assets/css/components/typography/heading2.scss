@@ -7,4 +7,9 @@ h2 {
 		@include font-size(md);
 		font-weight: 300;
 	}
+
+	// modifiers
+	&.short {
+		margin: 0;
+	}
 }

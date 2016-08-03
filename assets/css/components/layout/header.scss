@@ -1,18 +1,37 @@
 header {
 	width: 100%;
-	padding: 10px 30px 0px 15px;
+	padding: 8px 30px 0px 10px;
+	position: fixed;
+	top: 0;
+	background-color: $black;
+	color: $white;
+	z-index: 5;
 
 	.logo {
 		float: left;
 
+
 		svg {
-			height: 50px;
+			height: 40px;
+
+			path {
+				fill: $white;
+			}
+
+			#e {
+				fill: $black;
+			}
+
+			#lettering {
+				stroke-width: 4px;
+				stroke: $white;
+			}
 		}
 	}
 
 	nav {
 		float: right;
-		padding: 20px 0;
+		padding: 7px 0 1px;
 
 		ul {
 

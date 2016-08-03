@@ -19,9 +19,11 @@ require(['jquery'], function($) {
 		});
 	});
 
-	require(['docnav', 'scroller'], function(docnav, scroller) {
-		scroller.init()
-		docnav.init(scroller)
-	})
+	if($('.docnav').length) {
+		require(['docnav', 'scroller'], function(docnav, scroller) {
+			scroller.init()
+			docnav.init(scroller)
+		})
+	}
 
 })
