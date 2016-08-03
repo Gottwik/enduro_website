@@ -1,5 +1,5 @@
 {
-	title: 'Abstractors',
+	title: '',
 	$doc_fillheight: true,
 	$doc_type: 'textarea',
 	doc: '',

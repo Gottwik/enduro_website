@@ -14,9 +14,6 @@
 					label: 'Sass'
 				},
 				{
-					label: 'Build tools'
-				},
-				{
 					label: 'Cli'
 				}
 			]
@@ -32,6 +29,14 @@
 				},
 				{
 					label: 'Templatitator'
+				}
+			]
+		},
+		{
+			label: 'Build tools',
+			topics: [
+				{
+					label: 'Iconfont generator'
 				}
 			]
 		}
