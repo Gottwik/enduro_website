@@ -4,8 +4,11 @@ code {
 	display: inline !important;
 	border-radius: 3px;
 	padding: 5px 10px !important;
+	background: $code-background !important;
 }
 
+
+// block code
 pre code {
 	display: inherit !important;
 }

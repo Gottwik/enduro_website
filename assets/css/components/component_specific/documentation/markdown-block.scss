@@ -1,0 +1,18 @@
+.markdown-block {
+
+	a {
+		font-weight: 400;
+	}
+
+	.markdown_folder {
+		border-radius: 3px;
+		padding: 5px 10px !important;
+		background: $code-background !important;
+
+		&:before {
+			content: $fa-var-folder-o;
+			@include fa-icon()
+			margin-right: 5px;
+		}
+	}
+}

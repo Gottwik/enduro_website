@@ -1,6 +1,9 @@
 .docs-list {
-	padding-left: 20px;
-	padding-top: 50px;
+	padding: 30px;
+	width: 100%;
+	border: 1px solid lighten($grey, 70%);
+	border-radius: 10px;
+	margin-top: 40px;
 
 	.navigation {
 		font-weight: 400;
@@ -15,6 +18,14 @@
 
 		a {
 			text-decoration: none;
+		}
+
+		&.active {
+			font-weight: 400;
+		}
+
+		&.side-level-3 {
+			margin-left: 10px;
 		}
 	}
 

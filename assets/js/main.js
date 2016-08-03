@@ -19,7 +19,7 @@ require(['jquery'], function($) {
 		});
 	});
 
-	if($('.docnav').length) {
+	if($('.docs-list').length) {
 		require(['docnav', 'scroller'], function(docnav, scroller) {
 			scroller.init()
 			docnav.init(scroller)

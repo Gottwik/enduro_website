@@ -1,6 +1,9 @@
 // Part of bootstrap 4
 @import 'bootstrap-selection';
 
+$fa-font-path: '../vendor/font-awesome/fonts';
+@import '../vendor/font-awesome/scss/font-awesome';
+
 // Globbed variables
 @import 'variables/*';
 
@@ -12,5 +15,3 @@
 
 @import '../vendor/kiskabricks_wedgecss/wedge';
 
-$fa-font-path: '../vendor/font-awesome/fonts';
-@import '../vendor/font-awesome/scss/font-awesome';

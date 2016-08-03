@@ -8,10 +8,12 @@ $light-grey: lighten($grey, 55%);
 
 $blue: #2189e7;
 $light-blue: lighten($blue, 30%);
-$accent: #5c4269;
+$accent: #5a4368;
 
 $primary-text-color: $grey;
 
 $primary-background-color: $white;
 $light-background-color: lighten($grey, 72%);
 $primary-color-hover: darken($primary-color, 20%);
+
+$code-background: lighten($black, 98%);

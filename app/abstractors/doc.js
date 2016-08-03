@@ -34,6 +34,9 @@ abstractor.prototype.abstract = function(context) {
 		// creates the markdowned context
 		context.abstracted_content.marked_doc = marked(context.doc)
 
+		// applies folder markdown_rule
+		context.abstracted_content.marked_doc = folder_markdown(context.abstracted_content.marked_doc)
+
 		// creates folder structure
 		var headings = context.abstracted_content.marked_doc.match(/<h[{1-3}] id=".*?">.*?\/h[{1-3}]>/g)
 
@@ -57,6 +60,11 @@ abstractor.prototype.abstract = function(context) {
 		return resolve()
 
 	})
+}
+
+// custom markdown rule for markdown
+function folder_markdown(input) {
+	return input.replace(/\$\$(\w*)/g, '<span class="markdown_folder">$1</span>')
 }
 
 module.exports = new abstractor()
