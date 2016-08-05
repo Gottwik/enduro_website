@@ -1,6 +1,6 @@
 {
 	title: 'Sass',
-	$doc_fillheight: true,
+	$doc_markdown: true,
 	$doc_type: 'textarea',
 	doc: 'Enduro comes with sass. All `.scss` files that are located directly in $$assets/css , not in subfolders gets compiled. The compiled `.css` files end up in $$_src/assets/css so they can be imported like this:\n```\n<link rel="stylesheet" href="/assets/css/main.css">\n```\n\n## Globbing\nTo import whole directory, just do: `@import \'mixins/*\';`\n\nThanks to [https://github.com/mathisonian/gulp-sass-bulk-import](Gulp-sass-bulk-import) for this\n\n## Autoprefixer\nAutoprefixer is present with these settings\n```\n{\n	browsers: [\'last 2 versions\'],\n	cascade: false,\n}\n```',
 	$marked_doc_hidden: true,

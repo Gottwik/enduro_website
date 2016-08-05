@@ -1,6 +1,6 @@
 {
 	title: 'Multilingual support',
-	$doc_fillheight: true,
+	$doc_markdown: true,
 	$doc_type: 'textarea',
 	doc: 'Enduro comes with multilingual support built-in and easy to set up. Just run `$ enduro addculture en de` and you can add translations\n\n![](/assets/img/example_files/babel.gif)\n\n## Links\nAfter you\'ve added cultures, the default homepage will be www.yourdomain.com/en. If you had a page named info, it\'s url will now be www.yourdomain.com/en/info.\n\n## Admin interface\nNo additional setup necessary.\n\n## Default language\nIf no translation is provided, the first language is used.\n\n## Removing, reordering languages\nCurrently there is no cli command that will do this for you, but it\'s super easy to edit the settings file manually. It\'s located in $$cms/config/babel.js and look like this:\n```\n{\n	cultures: [\n		\'en\',\n		\'de\'\n	]\n}\n```',
 	$marked_doc_hidden: true,

@@ -1,6 +1,6 @@
 {
 	title: 'Deploying static pages',
-	$doc_fillheight: true,
+	$doc_markdown: true,
 	$doc_type: 'textarea',
 	doc: 'Enduro is so, so much more than a static page generator. It has a admin interface, all kinds of extensibility and raw node.js power to do whatever the project needs. However, there is no shame to use enduro to generate static pages.\n\n## src folder\nAfter you run enduro, it will build the whole project into $$_src folder. If you are happy with your site and want to publish it only, say on github pages, just grab the $$_src folder, upload it and you are done.',
 	$marked_doc_hidden: true,

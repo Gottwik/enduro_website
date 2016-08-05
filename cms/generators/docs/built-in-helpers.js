@@ -1,6 +1,6 @@
 {
 	title: 'Built in helpers',
-	$doc_fillheight: true,
+	$doc_markdown: true,
 	$doc_type: 'textarea',
 	doc: '## Add\nAdds two numbers together\n```html\n{{add @index 2}} <<< outputs @index + 2\n```\ncan take multiple arguments\n```\n{{add 1 2 3}} outputs 6\n```\n\n## Class\nRender variable name if variable is true\n```html\n{{class \'gradient\'}} <<< will render \'gradient\' if class context.gradient is truthy\n```\ncan take multiple arguments\n```\n{{class \'gradient\' \'dark\' \'border\'}}\n```\nNote: converts underscores to dashes\n\n## Compare\nCompares two values and prints out one of two strings based on outcome of the comparison\n```\n{{compare age 20 \'this dude is exactly 20 years old\' \'hes not 20 years old}}\n```\n\n## Default\nPrints something in case that the provided variable is falsy\n```html\n{{default age 20}} <<< if no age is provided 20 will be used\n```',
 	$marked_doc_hidden: true,

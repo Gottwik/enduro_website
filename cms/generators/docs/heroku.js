@@ -1,6 +1,6 @@
 {
 	title: 'Deploying on heroku',
-	$doc_fillheight: true,
+	$doc_markdown: true,
 	$doc_type: 'textarea',
 	doc: 'Enduro.js is ready to be used on heroku or any other cloud service.\n\nIf you used `$ enduro create appname` you are all set up, enduro-wise. Just follow these steps:\n* Init, add and commit your project to git `git init`, `git add .`, `git commit -m \'first commit\'`\n* Install [heroku\'s toolbelt](https://toolbelt.heroku.com/)\n* Create new heroku app: `heroku create enduro-test-app`\n* Grab git link that heroku provided and push to it: `git push <herokugit> master`\n\nWow, we are done. You enduro.js app is live, with admin interface and everything.',
 	$marked_doc_hidden: true,

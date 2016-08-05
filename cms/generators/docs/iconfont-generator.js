@@ -1,6 +1,6 @@
 {
 	title: 'Iconfont generators',
-	$doc_fillheight: true,
+	$doc_markdown: true,
 	$doc_type: 'textarea',
 	doc: '## Iconfont generator\nJust place one-icon-per file `.svg`s in $$assets/fonticons. Enduro will generate icon font. All you need to do is include the scss file that contains all the icons:\n```\n@import \'../../_src/_prebuilt/icons\';\n```\n\n### Using generated iconfont\nOnce you have included the generated scss file, you can use the icons in two ways:\n\nIn sass\n```css\n@include icon(user)\n```\n\nIn html\n```\n<i class="icon-user></i>\n```\n\n### Making icons\n![making svg icons](/assets/img/example_files/makingicons.png)\n\nI made my icons in illustrator. You can get this [sample file](/assets/img/example_files/icons_20.ai). To export the file, just choose \'use artboards\' option.\n\n![making svg icons](/assets/img/example_files/useartboards.png)\n\nThanks to [https://github.com/nfroidure/gulp-iconfont](Gulp-iconfont)',
 	$marked_doc_hidden: true,

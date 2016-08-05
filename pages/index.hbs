@@ -1,26 +1,24 @@
 {{#>body}}
 	<div class="fixed-screen-holder"></div>
-	<div class="screen veil gradient fixed" style="background-image: url(https://s3-us-west-2.amazonaws.com/coverr/poster/We-Work-We-Wait.jpg)">
+	<div class="screen veil gradient fixed" style="background-image: url('{{background_video_poster}}')">
 			<video autoplay loop class="fullvideo">
-				<source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/We-Work-We-Wait.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-				<source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/We-Work-We-Wait.mp4" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+				<source src="{{background_video}}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
 			</video>
 			<div class="screen-padder text-center dark full">
 
 				<div class="wedge-3x"></div>
-				<h1 class="short large">Enduro.js</h1>
-				<h2 class="short"><span>Minimalistic</span><span>, lean & mean</span><span>, node.js cms</span></h2>
+				<h1 class="short large">{{heading}}</h1>
+				<h2 class="short">{{tagline}}</h2>
 				<div class="badges-holder">
 					{{>badges}}
 				</div>
-
 
 			</div>
 		</div>
 
 		<div class="screen colored">
 			<div class="screen-padder">
-				<h1>Why enduro?</h1>
+				<h1>{{features_heading}}</h1>
 				<div class="wedge-3x"></div>
 				<div class="row feature-row">
 					{{#each global.features}}

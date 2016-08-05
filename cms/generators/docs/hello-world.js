@@ -1,6 +1,6 @@
 {
 	title: 'Hello world in enduro.js',
-	$doc_fillheight: true,
+	$doc_markdown: true,
 	$doc_type: 'textarea',
 	doc: '## Installation\nGo ahead and install enduro globally by running `npm install enduro -g`\n\n## Creating new project\nCreate a new project by running `enduro create helloworld`. Now just cd into the created directory\n\n## Run enduro\nDefault, developer mode can be run just by typing `enduro`\n\nNow enduro is up and running. Feel free to look around the folder structure.\n\nCheck out [working with templates](/docs/templates) and [sass](/docs/sass) to get your project started',
 	$marked_doc_hidden: true,

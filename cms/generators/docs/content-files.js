@@ -1,6 +1,6 @@
 {
 	title: 'Content files',
-	$doc_fillheight: true,
+	$doc_markdown: true,
 	$doc_type: 'textarea',
 	doc: 'Content is stored in content files. Content files are in $$cms folder.\n\n## Linking content to template\nScoping is very simple. Every page(.hbs file) from $$pages folder has access to file with the same name in $$cms folder.\n\n## Global content\nThere is a $$cms/global subfolder. Every content file in this directory is accessible to all pages. Content from global folder is in global object when referencing from handlebars template.\n\n## Basic example\n$$cms/index.js\n```js\n{\n	name: \'martin\'\n}\n```\n\n$$cms/global/car.js\n```js\n{\n	car: \'toyota\'\n}\n```\n\n$$pagez/index.hbs\n```html\n<div class="user">{{name}}</div>\n<div class="car">{{global.car}}</div>\n```',
 	$marked_doc_hidden: true,

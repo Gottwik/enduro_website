@@ -1,6 +1,6 @@
 {
 	title: '',
-	$doc_fillheight: true,
+	$doc_markdown: true,
 	$doc_type: 'textarea',
 	doc: '',
 	$marked_doc_hidden: true,
