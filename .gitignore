@@ -3,4 +3,4 @@
 /assets/vendor
 /node_modules
 /assets/css/sprites
-/enduro_secret
+enduro_secret.json
