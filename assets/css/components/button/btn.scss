@@ -1,0 +1,12 @@
+.btn {
+	padding: 4px 20px;
+	background-color: $white;
+	display: inline-block;
+	color: $black !important;
+	border-radius: 2px;
+	transition: background-color $quick-transition;
+
+	&:hover {
+		background-color: darken($white, 10%);
+	}
+}
