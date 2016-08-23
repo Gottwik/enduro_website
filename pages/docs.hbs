@@ -4,9 +4,16 @@
 		<div class="panel">
 			<h1>Documentation</h1>
 			<div class="row">
-				<div class="col-md-6">
-					{{>documentation_list}}
-				</div>
+					{{#each global.documentation_list}}
+						<div class="col-md-3">
+						<h3 class="short line">{{label}}</h3>
+						<ul>
+							{{#each topics}}
+								<li><a href="/docs/{{slug label}}">{{label}}</a></li>
+							{{/each}}
+						</ul>
+						</div>
+					{{/each}}
 			</div>
 		</div>
 	</div>
