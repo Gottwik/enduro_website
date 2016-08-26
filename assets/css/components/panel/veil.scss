@@ -1,0 +1,4 @@
+.veil {
+	@include full();
+	background-color: rgba($black, .3);
+}

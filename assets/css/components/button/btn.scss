@@ -1,12 +1,18 @@
 .btn {
-	padding: 4px 20px;
-	background-color: $white;
+	@include hoverlink();
+	padding: 7px 30px;
+	background-color: rgba($black, .2);
+	border: 1px $white solid;
 	display: inline-block;
-	color: $black !important;
 	border-radius: 2px;
-	transition: background-color $quick-transition;
+	margin: 0 5px;
 
-	&:hover {
-		background-color: darken($white, 10%);
+	.black & {
+		color: $white !important;
+	}
+
+	i {
+		margin-top: -5px;
+		margin-bottom: 10px;
 	}
 }

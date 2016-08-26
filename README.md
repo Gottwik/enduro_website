@@ -1,6 +1,6 @@
 # Official website of enduro.js - Minimalistic, lean & mean, node.js cms
 
-Hosted here: https://kiskadigitalmedia.github.io/Enduro/
+Hosted here: http://endurojs.com/
 
 This website is made in [enduro.js](https://github.com/kiskadigitalmedia/Enduro) and has bower dependencies. To get it running locally follow these steps:
 

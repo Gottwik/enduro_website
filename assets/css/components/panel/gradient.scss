@@ -1,0 +1,8 @@
+.gradient {
+	&:before {
+		content: '';
+		@include full();
+		background: linear-gradient(to bottom, rgba($black, 1) 5%, rgba($black, 0) 50%);
+		z-index: 1;
+	}
+}

@@ -15,7 +15,8 @@
 
 				<div class="demo-button-area">
 					<div class="wedge-3x"></div>
-					<a href="http://demo.endurojs.com/admin" target="_blank" class="btn">Demo</a>
+					<a href="http://demo.endurojs.com/admin" target="_blank" class="btn"><span>Demo</span></a>
+					<a href="/docs" class="btn"><span>Documentation</span></a>
 				</div>
 
 			</div>
@@ -24,18 +25,18 @@
 		<div class="screen colored">
 			<div class="screen-padder">
 				<h1>{{features_heading}}</h1>
-				<div class="wedge-3x"></div>
+				<div class="wedge-4x"></div>
 				<div class="row feature-row">
 					{{#each global.features}}
 						<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 feature">
 							<i class="fa fa-{{icon}}" aria-hidden="true"></i>
-							<div class="wedge"></div>
 							<h2 class="short">{{title}}</h2>
-							<p>{{text}}</p>
+							<p>{{{linkified_text}}}</p>
 						</div>
 					{{/each}}
 					<div class="clearfix"></div>
 				</div>
 			</div>
 		</div>
+
 {{/body}}

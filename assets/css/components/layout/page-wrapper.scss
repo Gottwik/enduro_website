@@ -1,0 +1,31 @@
+.page-wrapper {
+	position: relative;
+
+
+	// modifiers
+	&.colored {
+		background-color: $primary-color;
+		color: $white;
+
+		&.secondary {
+			background-color: $secondary-color;
+
+			a {
+				color: $primary-color;
+			}
+		}
+	}
+
+	&.dark {
+		background-color: $grey;
+		color: $white;
+
+		a {
+			color: $primary-color;
+		}
+
+		.btn {
+			border-color: $primary-color;
+		}
+	}
+}

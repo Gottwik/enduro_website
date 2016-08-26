@@ -1,0 +1,9 @@
+<nav class="screen-menu">
+	<ul>
+		{{#each global.mainmenu.items}}
+			<li>
+				<a {{ternary new_window 'target="_blank"' ''}} href="{{link}}">{{label}}</a>
+			</li>
+		{{/each}}
+	</ul>
+</nav>

@@ -1,25 +1,33 @@
-a:visited,
-a:link {
-	text-decoration: none;
-	color: inherit;
+a {
 
-	i {
-		@include font-size(icon2x, true);
-		position: relative;
-		top: 7px;
-		margin-right: 10px;
-		transition: transform $standard-transition;
+	&:visited,
+	&:link {
+		text-decoration: none;
+		color: inherit;
+
+		i {
+			@include font-size(icon2x, true);
+			position: relative;
+			top: 7px;
+			margin-right: 10px;
+			transition: transform $standard-transition;
+		}
+
 	}
 
+	&:focus,
 	&:hover {
-		i {
-			transform: translateX(-10px);
+		text-decoration: none;
+
+	}
+
+// modifiers
+	.back {
+		&:hover {
+			i {
+				transform: translateX(-10px);
+			}
 		}
 	}
-}
-
-a:focus,
-a:hover {
-	text-decoration: none;
 
 }

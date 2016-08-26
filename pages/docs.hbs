@@ -1,19 +1,59 @@
 {{#>body}}
-	<div class="wedge-5x"></div>
+	<div class="jumbotron dark top" style="background-image: url('https://static.pexels.com/photos/6471/woman-hand-smartphone-desk-large.jpg')">
+		<div class="veil"></div>
+		<div class="contentbox">
+			<h1>Documentation</h1>
+		</div>
+	</div>
+
+	<div class="page-wrapper colored text-center">
+		<div class="page-container">
+			<div class="wedge-3x"></div>
+			<div class="row">
+
+				<div class="col-md-4">
+					<a class="block" href="/docs/what-is-enduro">
+						<i class="fa fa-star"></i>
+						<h3>What is enduro</h3>
+					</a>
+				</div>
+
+				<div class="col-md-4">
+					<a class="block" href="/docs/hello-world">
+						<i class="fa fa-code"></i>
+						<h3>Hello world</h3>
+					</a>
+				</div>
+
+				<div class="col-md-4">
+					<a class="block" href="/docs/introduction-to-admin">
+						<i class="fa fa-cloud"></i>
+						<h3>Admin interface</h3>
+					</a>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
 	<div class="page-container">
 		<div class="panel">
-			<h1>Documentation</h1>
-			<div class="row">
-					{{#each global.documentation_list}}
-						<div class="col-md-3">
-						<h3 class="short line">{{label}}</h3>
-						<ul>
-							{{#each topics}}
-								<li><a href="/docs/{{slug label}}">{{label}}</a></li>
-							{{/each}}
-						</ul>
+			<div class="row wide">
+				{{#each global.documentation_list}}
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-body">
+								<h3 class="short line">{{label}}</h3>
+								<ul>
+									{{#each topics}}
+										<li><a href="/docs/{{slug label}}">{{label}}</a></li>
+									{{/each}}
+								</ul>
+							</div>
 						</div>
-					{{/each}}
+					</div>
+				{{/each}}
 			</div>
 		</div>
 	</div>

@@ -28,16 +28,13 @@
 			<div class="logo" >
 				<a href="/">{{>logo}}</a>
 			</div>
-			<nav class="screen-menu">
-				<ul>
-					<li><a href="/">Home</a></li>
-					<li><a href="/docs">Documentation</a></li>
-				</ul>
-			</nav>
+			{{>mainmenu}}
 			<div class="clearfix"></div>
 		</header>
 
 {{>@partial-block}}
-		 <script data-main="/assets/js/main.js" src="/assets/vendor/requirejs/require.js"></script>
+
+		{{>footer}}
+		<script data-main="/assets/js/main.js" src="/assets/vendor/requirejs/require.js"></script>
 	</body>
 </html>

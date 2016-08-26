@@ -1,0 +1,13 @@
+p {
+
+	// modifiers
+	&.padded {
+		padding: 10px 0;
+		margin-bottom: 0;
+	}
+
+	&.tiny {
+		@include font-size(xs);
+		font-weight: 100;
+	}
+}

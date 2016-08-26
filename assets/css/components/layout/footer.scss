@@ -1,0 +1,14 @@
+footer {
+	.logo svg {
+		width: 100px;
+		height: 50px;
+
+		#justhexagon {
+			fill: darken($white, 20%);
+		}
+
+		#juste {
+			fill: $grey
+		}
+	}
+}

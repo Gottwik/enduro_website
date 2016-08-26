@@ -1,0 +1,10 @@
+$wide-grid-gutter: 20px;
+
+.row.wide {
+	margin-left: -$wide-grid-gutter;
+	margin-right: $wide-grid-gutter;
+
+	> div {
+		padding: 0 $wide-grid-gutter;
+	}
+}

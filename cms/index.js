@@ -5,11 +5,4 @@
 	heading: 'Enduro.js',
 	tagline: 'Minimalistic, lean & mean, node.js cms',
 	features_heading: 'Why enduro?',
-	Superhearoes: [
-		{
-			name: 'Batman',
-			$image_type: 'image',
-			image: ''
-		}
-	]
 }

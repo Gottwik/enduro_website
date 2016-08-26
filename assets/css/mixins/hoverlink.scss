@@ -1,0 +1,8 @@
+@mixin hoverlink () {
+	transition: border-color $quick-transition, color $quick-transition;
+
+	&:hover {
+		border-color: $accent-color-on-dark;
+		color: $accent-color-on-dark;
+	}
+}

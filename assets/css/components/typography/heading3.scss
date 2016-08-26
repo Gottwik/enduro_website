@@ -1,7 +1,6 @@
 h3 {
 	@include font-size(md);
 	font-weight: 100;
-	text-align: left;
 	padding-bottom: 10px;
 
 	// modifiers
@@ -11,7 +10,8 @@ h3 {
 	}
 
 	&.line {
-		border-bottom: 1px solid lighten($grey, 70%);
+		border-bottom: 1px solid lighten($accent-color, 45%);
+		margin-bottom: 10px;
 	}
 
 }

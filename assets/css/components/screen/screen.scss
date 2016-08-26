@@ -11,22 +11,18 @@
 	}
 
 	&.blue {
-		background-color: $blue;
+		background-color: $primary-color;
 		color: $white;
 	}
 
 	&.colored {
-		background-color: $accent;
+		background-color: $primary-color;
 		color: $white;
-	}
+		border-top: 5px solid $accent-color;
 
-
-	&.gradient {
-		&:before {
-			content: '';
-			@include full();
-			background: linear-gradient(to bottom, rgba($black, 1) 5%, rgba($black, 0) 50%);
-			z-index: 1;
+		a {
+			color: lighten(saturate($primary-color, 100%), 20%);
+			text-decoration: underline;
 		}
 	}
 

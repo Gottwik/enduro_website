@@ -1,0 +1,26 @@
+.jumbotron {
+	height: 600px;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	position: relative;
+
+	.contentbox {
+		display: inline-block;
+		vertical-align: middle;
+		position: relative;
+	}
+
+	&:before {
+		content: '';
+		display: inline-block;
+		vertical-align: middle;
+		height: 100%;
+	}
+
+	// modifiers
+	&.top {
+		background-position: top;
+	}
+
+}
