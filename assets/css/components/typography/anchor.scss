@@ -21,12 +21,20 @@ a {
 
 	}
 
-// modifiers
-	.back {
+	// modifiers
+	&.back {
 		&:hover {
 			i {
 				transform: translateX(-10px);
 			}
+		}
+	}
+
+	&.block {
+		transition: color $standard-transition;
+
+		&:hover {
+			color: $secondary-color;
 		}
 	}
 

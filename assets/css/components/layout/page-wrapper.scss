@@ -9,9 +9,11 @@
 
 		&.secondary {
 			background-color: $secondary-color;
+			color: $black;
 
 			a {
 				color: $primary-color;
+				text-decoration: underline;
 			}
 		}
 	}
@@ -21,11 +23,11 @@
 		color: $white;
 
 		a {
-			color: $primary-color;
+			color: $secondary-color;
 		}
 
 		.btn {
-			border-color: $primary-color;
+			border-color: $secondary-color;
 		}
 	}
 }

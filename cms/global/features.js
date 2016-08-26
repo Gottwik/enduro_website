@@ -32,9 +32,9 @@
 			icon: 'gears',
 			title: 'Build tool',
 			$text_type: 'textarea',
-			text: '[Sass](/docs/sass) check. [Spritessheet generation](/docs/spritesheet-generator)? check. Enduro.js comes with set of build tools to build everything on the server. Forget about ftping built files.',
+			text: '[Sass](/docs/sass) check. [Spritessheet generation](/docs/spritesheet-generator) check. Enduro.js comes with set of build tools to build everything on the server. Forget about ftping built files.',
 			$linkified_text_hidden: true,
-			linkified_text: '<a href="/docs/spritesheet-generator">Sass](/docs/sass) check. [Spritessheet generation</a>? check. Enduro.js comes with set of build tools to build everything on the server. Forget about ftping built files.'
+			linkified_text: '<a href="/docs/sass">Sass</a> check. <a href="/docs/spritesheet-generator">Spritessheet generation</a> check. Enduro.js comes with set of build tools to build everything on the server. Forget about ftping built files.'
 		},
 		{
 			$icon_type: 'fa',

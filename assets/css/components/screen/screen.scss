@@ -18,10 +18,10 @@
 	&.colored {
 		background-color: $primary-color;
 		color: $white;
-		border-top: 5px solid $accent-color;
+		border-top: 5px solid $secondary-color;
 
 		a {
-			color: lighten(saturate($primary-color, 100%), 20%);
+			color: lighten(saturate($primary-color, 100%), 50%);
 			text-decoration: underline;
 		}
 	}

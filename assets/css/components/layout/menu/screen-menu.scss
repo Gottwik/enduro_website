@@ -1,5 +1,57 @@
 .screen-menu {
+
+	float: right;
+	padding: 7px 0 1px;
+
+	ul {
+		li {
+			padding: 0 5px;
+			display: inline-block;
+		}
+	}
+
 	a {
 		@include hoverlink();
+	}
+
+	.collapsed-menu {
+		display: none;
+		margin-top: -2px;
+		margin-right: -12px;
+		cursor: pointer;
+
+		i {
+			font-size: 30px !important;
+		}
+
+		& ~ input {
+			display: none;
+
+			&:checked ~ ul {
+				display: block;
+			}
+		}
+	}
+
+	@include media-breakpoint-down(sm) {
+		ul {
+			display: none;
+			position: absolute;
+			left: 0;
+			background-color: $black;
+			width: 100%;
+			padding: 30px;
+
+			li {
+				display: block;
+				padding: 5px;
+				@include font-size(md);
+			}
+
+		}
+
+		.collapsed-menu {
+			display: block;
+		}
 	}
 }

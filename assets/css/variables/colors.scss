@@ -1,11 +1,20 @@
-$primary-color: #30b89d;
-$secondary-color: #123456;
-$accent-color: darken($primary-color, 20%);
+// $scheme: (#505160, #68829E, #aedb38); // Crisp & Dramatic
+// $scheme: (#375e97, #fb6542, #ffbb00); // Primary Colors With a Vibrant Twist
+// $scheme: (#98DBC6, #5BC8AC, #E6D72A); // Refreshing & Pretty
+// $scheme: (#1995ad, #a1d6e2, #bcbabe); // Icy Blues and Grays
+// $scheme: (#5d535e, #ec96a4, #dfe166); // Birds & Berries
+$scheme: (#011a27, #063852, #e6df44); // Day & Night
 
+// applied scheme
+$black: nth($scheme, 1);
+$primary-color: nth($scheme, 2);
+$secondary-color: nth($scheme, 3);
+
+// basics
 $white: #fff;
-$black: #000;
 $grey: #423d3d;
 
+// derived colors
 $light-grey: lighten($grey, 55%);
 
 $link-color: lighten($primary-color, 30%);
@@ -14,4 +23,4 @@ $primary-text-color: $grey;
 
 $code-background: lighten($black, 98%);
 
-$accent-color-on-dark: saturate(lighten($accent-color, 30%), 30%);
+$secondary-color-on-dark: saturate(lighten($secondary-color, 30%), 30%);

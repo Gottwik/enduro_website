@@ -1,8 +1,12 @@
 <nav class="screen-menu">
+	<label for="endrjs_collapsed_menu" class="collapsed-menu">
+		<i class="fa fa-bars"></i>
+	</label>
+	<input id="endrjs_collapsed_menu" type="checkbox">
 	<ul>
 		{{#each global.mainmenu.items}}
 			<li>
-				<a {{ternary new_window 'target="_blank"' ''}} href="{{link}}">{{label}}</a>
+				<a {{{ternary new_window 'target="_blank"'}}} href="{{link}}">{{label}}</a>
 			</li>
 		{{/each}}
 	</ul>

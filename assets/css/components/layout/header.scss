@@ -10,7 +10,6 @@ header {
 	.logo {
 		float: left;
 
-
 		svg {
 			height: 40px;
 
@@ -27,18 +26,10 @@ header {
 				stroke: $white;
 			}
 		}
+
 	}
 
-	nav {
-		float: right;
-		padding: 7px 0 1px;
-
-		ul {
-
-			li {
-				padding: 0 10px;
-				display: inline-block;
-			}
-		}
+	@include media-breakpoint-down(sm) {
+		padding: 8px 30px 3px 15px;
 	}
 }
