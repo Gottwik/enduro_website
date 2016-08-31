@@ -7,12 +7,27 @@
 	border-radius: 2px;
 	margin: 0 5px;
 
-	.black & {
-		color: $white !important;
-	}
-
 	i {
 		margin-top: -5px;
 		margin-bottom: 10px;
+	}
+
+	// modifiers
+	$accent-button-color: $secondary-color;
+	$accent-button-color-hover: darken($accent-button-color, 20%);
+	&.accent {
+		background-color: $accent-button-color;
+		border-color: $accent-button-color;
+		color: $black;
+
+		&:hover {
+			background-color: $accent-button-color-hover;
+			border-color: $accent-button-color-hover;
+		}
+	}
+
+	// environments
+	.black & {
+		color: $white !important;
 	}
 }
