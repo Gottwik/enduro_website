@@ -31,6 +31,9 @@
 			topics: [
 				{
 					label: 'Cli'
+				},
+				{
+					label: 'Ab testing'
 				}
 			]
 		},
@@ -84,6 +87,14 @@
 				},
 				{
 					label: 'Deploying static pages'
+				}
+			]
+		},
+		{
+			label: 'Admin controls',
+			topics: [
+				{
+					label: 'Object control type'
 				}
 			]
 		}
