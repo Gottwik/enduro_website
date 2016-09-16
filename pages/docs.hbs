@@ -43,20 +43,23 @@
 	<div class="page-container">
 		<div class="panel">
 			<div class="row wide">
-				{{#each global.documentation_list}}
-					<div class="col-md-6">
-						<div class="card">
-							<div class="card-body">
-								<h3 class="short line">{{label}}</h3>
-								<ul>
-									{{#each topics}}
-										<li><a href="/docs/{{slug label}}">{{label}}</a></li>
-									{{/each}}
-								</ul>
+				{{#grouped_each 3 global.documentation_list}}
+					{{#each this}}
+						<div class="col-md-4">
+							<div class="card">
+								<div class="card-body">
+									<h3 class="short line">{{label}}</h3>
+									<ul>
+										{{#each topics}}
+											<li><a href="/docs/{{slug label}}">{{label}}</a></li>
+										{{/each}}
+									</ul>
+								</div>
 							</div>
 						</div>
-					</div>
-				{{/each}}
+					{{/each}}
+						<div class="wedge"></div>
+				{{/grouped_each}}
 			</div>
 		</div>
 	</div>

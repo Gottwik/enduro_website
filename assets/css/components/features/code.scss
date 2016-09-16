@@ -1,14 +1,20 @@
 code {
-	@include no-smooth-font();
+//	@include no-smooth-font();
 	@include font-size(xs);
 	display: inline !important;
-	border-radius: 3px;
-	padding: 5px 10px !important;
+	border-radius: 5px;
+	padding: 2px 10px !important;
+	margin: -5px 5px;
 	background: $code-background !important;
+	white-space: nowrap !important;
+	font-family: 'Source Code Pro', monospace;
 }
 
 
 // block code
 pre code {
 	display: inherit !important;
+	padding: 15px 20px !important;
+	margin: 0;
+	white-space: pre-wrap !important;
 }

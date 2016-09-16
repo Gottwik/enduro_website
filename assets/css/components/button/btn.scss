@@ -13,16 +13,15 @@
 	}
 
 	// modifiers
-	$accent-button-color: $secondary-color;
-	$accent-button-color-hover: darken($accent-button-color, 20%);
+	$accent-button-color: saturate($primary-color, 40%);
+	$accent-button-color-hover: saturate(darken($accent-button-color, 20%), 20%);
 	&.accent {
 		background-color: $accent-button-color;
-		border-color: $accent-button-color;
-		color: $black;
+		border-color: $white;
+		color: $white;
 
 		&:hover {
 			background-color: $accent-button-color-hover;
-			border-color: $accent-button-color-hover;
 		}
 	}
 

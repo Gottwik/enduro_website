@@ -33,7 +33,13 @@
 					label: 'Cli'
 				},
 				{
+					label: 'App'
+				},
+				{
 					label: 'Ab testing'
+				},
+				{
+					label: 'Juicebox'
 				}
 			]
 		},
@@ -95,6 +101,14 @@
 			topics: [
 				{
 					label: 'Object control type'
+				}
+			]
+		},
+		{
+			label: 'Built-in helpers',
+			topics: [
+				{
+					label: 'Grouped each'
 				}
 			]
 		}
