@@ -6,14 +6,20 @@
 	}
 
 	.markdown_folder {
-		border-radius: 3px;
-		padding: 5px 10px !important;
+		@include font-size(xs);
+		border-radius: 5px;
+		display: inline-block;
+		padding: 1px 10px !important;
 		background: $code-background !important;
+		color: #91cef5;
+		position: relative;
+		font-family: 'Source Code Pro', monospace;
 
 		&:before {
-			content: $fa-var-folder-o;
+			font-size: 18px;
+			content: $fa-var-folder;
 			@include fa-icon()
-			margin-right: 5px;
+			margin: -2px 5px -5px -4px;
 		}
 	}
 
