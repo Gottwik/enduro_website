@@ -40,6 +40,9 @@
 				},
 				{
 					label: 'Juicebox'
+				},
+				{
+					label: 'Generators'
 				}
 			]
 		},
