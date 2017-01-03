@@ -1,4 +1,6 @@
 footer {
+	@include no-smooth-font();
+
 	.logo svg {
 		width: 100px;
 		height: 50px;
