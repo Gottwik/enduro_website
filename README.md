@@ -2,6 +2,10 @@
 
 Hosted here: http://endurojs.com/
 
+![Imgur](http://i.imgur.com/NM9ZODP.png)
+
+# Contributing
+
 This website is made in [enduro.js](https://github.com/kiskadigitalmedia/Enduro) and has bower dependencies. To get it running locally follow these steps:
 
 1. Make sure you have node.js installed. Grab it here if you don't: https://nodejs.org/en/download/
