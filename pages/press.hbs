@@ -1,0 +1,26 @@
+{{#>body}}
+
+	<div class="jumbotron dark top" style="background-image: url('https://images.pexels.com/photos/207709/pexels-photo-207709.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb');">
+	</div>
+
+	<div class="page-wrapper text-center press">
+		<div class="page-container">
+			<div class="row">
+				{{#each press_items}}
+					<div class="col-md-4">
+						<div class="wedge-3x"></div>
+						<img class="img-fluid" src="{{preview_image}}">
+						<div class="wedge-2x"></div>
+						<div class="bubble">{{filetype}}</div>
+						<div class="wedge"></div>
+						<h4>{{name}}</h4>
+						<a href="{{file}}" target="_blank">Download</a>
+						<div class="wedge-3x"></div>
+					</div>
+				{{/each}}
+			</div>
+		</div>
+	</div>
+
+
+{{/body}}

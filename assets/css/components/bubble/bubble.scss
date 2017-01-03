@@ -1,0 +1,8 @@
+.bubble {
+	padding: 0px 10px 2px;
+	background-color: $secondary-color;
+	display: inline-block;
+	border-radius: 5px;
+	color: $white;
+	@include no-smooth-font();
+}
