@@ -23,11 +23,12 @@
 		color: $white;
 
 		a {
-			color: $secondary-color;
+			color: $white;
 		}
 
 		.btn {
-			border-color: $secondary-color;
+			@include no-smooth-font();
+			border-color: $white;
 		}
 	}
 }

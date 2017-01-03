@@ -4,26 +4,26 @@ var abstractor = function () {}
 // vendor dependencies
 var marked = require('marked')
 marked.setOptions({
-  renderer: new marked.Renderer(),
-  gfm: true,
-  tables: true,
-  breaks: false,
-  pedantic: true,
-  sanitize: true,
-  smartLists: true,
-  smartypants: false
-});
+	renderer: new marked.Renderer(),
+	gfm: true,
+	tables: true,
+	breaks: false,
+	pedantic: true,
+	sanitize: true,
+	smartLists: true,
+	smartypants: false
+})
 
-abstractor.prototype.init = function(context) {
-	return new Promise(function(resolve, reject) {
+abstractor.prototype.init = function (context) {
+	return new Promise(function (resolve, reject) {
 
 		// initialize abstractor
 		resolve()
 	})
 }
 
-abstractor.prototype.abstract = function(context) {
-	return new Promise(function(resolve, reject) {
+abstractor.prototype.abstract = function (context) {
+	return new Promise(function (resolve, reject) {
 
 		// hides the abstracted context
 		context['$abstracted_content_hidden'] = true
@@ -42,7 +42,7 @@ abstractor.prototype.abstract = function(context) {
 
 		var heading_structure = []
 
-		for(m in headings) {
+		for (m in headings) {
 
 			var heading = {}
 
@@ -63,7 +63,7 @@ abstractor.prototype.abstract = function(context) {
 }
 
 // custom markdown rule for markdown
-function folder_markdown(input) {
+function folder_markdown (input) {
 	return input.replace(/\$\$([\w\/\.]*)/g, '<span class="markdown_folder">$1</span>')
 }
 

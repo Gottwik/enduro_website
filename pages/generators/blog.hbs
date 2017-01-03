@@ -1,0 +1,35 @@
+{{#>body title=title}}
+	<div class="wedge-5x"></div>
+	<div class="page-container">
+		<div class="panel">
+
+			<a class="back" href="/blog"><i class="fa fa-angle-left"></i>Back to blog</a>
+
+			<div class="row">
+				<div class="col-md-12">
+					<h1>{{title}}</h1>
+					<h5>{{date}}</h5>
+					<div class="wedge-3x"></div>
+					<div class="markdown-block">{{{abstracted_content.marked_doc}}}</div>
+				</div>
+			</div>
+
+			<a class="back" href="/blog"><i class="fa fa-angle-left"></i>Back to blog</a>
+
+		</div>
+		<div id="disqus_thread"></div>
+
+		<script>
+			(function() { // DON'T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement('script');
+			s.src = '//endurojs.disqus.com/embed.js';
+			s.setAttribute('data-timestamp', +new Date());
+			(d.head || d.body).appendChild(s);
+			})();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+	</div>
+
+
+{{/body}}

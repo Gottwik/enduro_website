@@ -1,0 +1,23 @@
+{{#>body}}
+
+	<div class="jumbotron dark " style="background-image: url('https://images.pexels.com/photos/243148/pexels-photo-243148.jpeg'); background-position: 40% center;">
+	</div>
+
+	<div class="page-container">
+		<div class="panel">
+			{{#blog}}
+				{{#each this}}
+					<article>
+						<div class="article_body">
+							<a href="/blog/{{page_slug}}"><h2>{{content.title}}</h2></a>
+							<h5>{{content.date}}</h5>
+							<div class="wedge-3x"></div>
+							{{{content.teaser.abstracted_content.marked_doc}}}
+							<a href="/blog/{{page_slug}}">Read more...</a>
+						</div>
+					</article>
+				{{/each}}
+			{{/blog}}
+		</div>
+	</div>
+{{/body}}
