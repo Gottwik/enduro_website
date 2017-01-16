@@ -32,5 +32,8 @@
 				link: 'next-steps'
 			}
 		]
+	},
+	teaser: {
+		doc: ''
 	}
 }

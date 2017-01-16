@@ -12,4 +12,7 @@
 		marked_doc: '',
 		contents: []
 	}
+	teaser: {
+		doc: ''
+	}
 }
