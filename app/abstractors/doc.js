@@ -64,7 +64,7 @@ abstractor.prototype.abstract = function (context) {
 
 // custom markdown rule for markdown
 function folder_markdown (input) {
-	return input.replace(/\$\$([\w\/\.]*)/g, '<span class="markdown_folder">$1</span>')
+	return input.replace(/\$\$([\w\/\.-]*)/g, '<span class="markdown_folder">$1</span>')
 }
 
 module.exports = new abstractor()
