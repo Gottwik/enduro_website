@@ -11,7 +11,7 @@
 	abstracted_content: {
 		marked_doc: '',
 		contents: []
-	}
+	},
 	teaser: {
 		doc: ''
 	}
