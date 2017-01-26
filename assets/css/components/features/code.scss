@@ -1,5 +1,4 @@
 code {
-//	@include no-smooth-font();
 	@include font-size(xs);
 	display: inline !important;
 	border-radius: 5px;
@@ -8,6 +7,7 @@ code {
 	background: $code-background !important;
 	white-space: nowrap !important;
 	font-family: 'Source Code Pro', monospace;
+	color: darken($white, 10%);
 }
 
 
