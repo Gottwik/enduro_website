@@ -74,6 +74,12 @@
 				},
 				{
 					label: 'Multilingual support'
+				},
+				{
+					label: 'Linker'
+				},
+				{
+					label: 'Trollhunter'
 				}
 			]
 		},
@@ -112,6 +118,14 @@
 			topics: [
 				{
 					label: 'Grouped each'
+				}
+			]
+		},
+		{
+			label: 'Enduro\'s libraries',
+			topics: [
+				{
+					label: 'temper'
 				}
 			]
 		}

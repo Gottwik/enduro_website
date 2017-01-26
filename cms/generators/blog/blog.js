@@ -13,6 +13,11 @@
 		contents: []
 	},
 	teaser: {
-		doc: ''
+		doc: '',
+		$abstracted_content_hidden: true,
+		abstracted_content: {
+			marked_doc: '',
+			contents: []
+		}
 	}
 }
