@@ -14,6 +14,8 @@
 	},
 	teaser: {
 		doc: '',
+		$image_type: 'image',
+		image: '',
 		$abstracted_content_hidden: true,
 		abstracted_content: {
 			marked_doc: '',

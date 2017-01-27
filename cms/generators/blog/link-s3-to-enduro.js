@@ -25,6 +25,8 @@
 	},
 	teaser: {
 		doc: 'Linking enduro to aws s3 storage enables uploading images directly to s3 from the admin interface and using juicebox to version and backup site\'s content',
+		$image_type: 'image',
+		image: '',
 		$abstracted_content_hidden: true,
 		abstracted_content: {
 			marked_doc: '<p>Linking enduro to aws s3 storage enables uploading images directly to s3 from the admin interface and using juicebox to version and backup site&#39;s content</p>\n',

@@ -40,6 +40,8 @@
 	},
 	teaser: {
 		doc: 'Enduro.js provides multicultural pages out-of-the-box. Follow this short guide to learn how to set it up',
+		$image_type: 'image',
+		image: '',
 		$abstracted_content_hidden: true,
 		abstracted_content: {
 			marked_doc: '<p>Enduro.js provides multicultural pages out-of-the-box. Follow this short guide to learn how to set it up</p>\n',

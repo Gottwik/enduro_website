@@ -65,6 +65,8 @@
 	},
 	teaser: {
 		doc: 'Let\'s talk about a website, say a simple blog such as this very page you are reading right now. It has a logo, menu, title, each blog entry has its own title, some images, date of creation and some text. All this content is usually stored in a database and **each time somebody visits**, the server gathers all this content, builds the page and serves it to the visitor.',
+		$image_type: 'image',
+		image: '',
 		$abstracted_content_hidden: true,
 		abstracted_content: {
 			marked_doc: '<p>Let&#39;s talk about a website, say a simple blog such as this very page you are reading right now. It has a logo, menu, title, each blog entry has its own title, some images, date of creation and some text. All this content is usually stored in a database and <strong>each time somebody visits</strong>, the server gathers all this content, builds the page and serves it to the visitor.</p>\n',
