@@ -1,0 +1,61 @@
+{{#>body}}
+
+
+	{{!-- <div class="screen veil gradient" style="background-image: url('https://images.pexels.com/photos/211929/pexels-photo-211929.jpeg?w=1920&auto=compress&cs=tinysrgb');"> --}}
+	{{!-- <div class="screen veil gradient" style="background-image: url('https://images.pexels.com/photos/219692/pexels-photo-219692.jpeg?w=1920&auto=compress&cs=tinysrgb');"> --}}
+	{{!-- <div class="screen veil gradient" style="background-image: url('https://images.pexels.com/photos/268819/pexels-photo-268819.jpeg?w=1920&auto=compress&cs=tinysrgb');"> --}}
+	{{!-- <div class="screen veil gradient" style="background-image: url('https://images.pexels.com/photos/235496/pexels-photo-235496.jpeg?w=1920&auto=compress&cs=tinysrgb');"> --}}
+	{{!-- <div class="screen veil gradient" style="background-image: url('https://images.pexels.com/photos/247811/pexels-photo-247811.jpeg?w=1920&auto=compress&cs=tinysrgb');"> --}}
+	<div class="screen veil gradient" style="background-image: url('/assets/img/temp/bride-1822488_1920.jpg');">
+
+			{{!-- <video autoplay loop muted class="fullvideo">
+				<source src="{{background_video}}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+			</video> --}}
+
+			<div class="screen-padder text-center dark full">
+
+				<div class="wedge-3x"></div>
+				<h1 class="short large">Enduro.js</h1>
+				<h2 class="short">Minimalistic, lean & mean, node.js cms</h2>
+				<div class="badges-holder">
+					{{>badges}}
+				</div>
+
+				<div class="demo-button-area">
+					<div class="wedge-3x"></div>
+					<a href="http://demo.endurojs.com/admin" target="_blank" class="btn"><span>Demo</span></a>
+					<a href="/docs/hello-world" class="btn accent"><span>Install</span></a>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="screen colored">
+			<div class="screen-padder">
+				<h1>Why enduro?</h1>
+				<div class="wedge-4x"></div>
+				<div class="row feature-row">
+					{{#each global.features}}
+						<div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 feature">
+							<i class="fa fa-{{icon}}" aria-hidden="true"></i>
+							<h2 class="short">{{title}}</h2>
+							<p>{{{linkified_text}}}</p>
+						</div>
+					{{/each}}
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			ga('send', 'event', 'index_background_image', 'visit', 'girl')
+
+			var buttons = document.querySelectorAll('.demo-button-area .btn')
+			for (var i = 0; i < buttons.length; i++) {
+				buttons[i].addEventListener('click', function () {
+					ga('send', 'event', 'index_background_image', 'goal', 'girl')
+				})
+			}
+		</script>
+
+{{/body}}

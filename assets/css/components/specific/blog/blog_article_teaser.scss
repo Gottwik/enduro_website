@@ -1,0 +1,13 @@
+.blog_article_teaser {
+	h2 {
+		margin-top: -15px;
+	}
+
+	border-bottom: 1px rgba($grey, .1) solid;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+
+	img {
+		padding-right: 10px;
+	}
+}

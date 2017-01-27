@@ -8,37 +8,70 @@
 <footer class="page-wrapper dark">
 	<div class="page-container padded">
 
-
-
 		<div class="row">
-			<div class="col-md-4">
-				<a href="https://twitter.com/enduro_js" target="_blank"><i class="fa fa-twitter"></i>enduro.js on twitter</a>
-				<div class="wedge-3x"></div>
-				<a class="twitter-timeline" href="https://twitter.com/enduro_js">Tweets by enduro_js</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</div>
+
 			<div class="col-md-4">
 				<nav class="footer-menu">
 					<ul>
+
 						<li>
-							<a href="/press">Enduro.js logos</a>
+							<div class="footer_menu_category">Downloads</div>
+							<ul>
+								<li><a href="/press">Enduro.js logos</a></li>
+							</ul>
+
 						</li>
+
+						<li>
+							<div class="footer_menu_category">Open source</div>
+							<ul>
+								<li><a href="https://github.com/Gottwik/Enduro" target="_blank"><i class="fa fa-github small"></i>Enduro.js on Github</a></li>
+								<li><a href="https://github.com/Gottwik/enduro_website" target="_blank"><i class="fa fa-github small"></i>This page on Github</a></li>
+							</ul>
+						</li>
+
+						<li>
+							<div class="footer_menu_category">Social</div>
+							<ul>
+								<li><a href="https://twitter.com/enduro_js" target="_blank"><i class="fa fa-twitter small"></i>Enduro.js on twitter</a></li>
+							</ul>
+						</li>
+
 					</ul>
 				</nav>
 			</div>
-			<div class="col-md-4 text-center-md-down">
-				<div class="pull-right">
-					<a href="https://github.com/Gottwik/Enduro" class="btn" target="_blank"><i class="fa fa-github"></i>Enduro.js on Github</a>
-					<div class="wedge"></div>
-					<a href="https://github.com/Gottwik/enduro_website" class="btn" target="_blank"><i class="fa fa-github"></i>This page on Github</a>
-				</div>
+
+			<div class="col-md-4">
+				<nav class="footer-menu">
+					<ul>
+
+						<li>
+							<div class="footer_menu_category">Blog</div>
+							<ul>
+								{{#blog}}
+									{{#each this}}
+										<li><a href="/blog/{{page_slug}}">{{content.title}}</a></li>
+									{{/each}}
+								{{/blog}}
+							</ul>
+
+						</li>
+
+					</ul>
+				</nav>
 			</div>
+
+			<div class="col-md-4">
+				<a class="twitter-timeline" data-height="500" data-theme="light" href="https://twitter.com/enduro_js">Tweets by enduro_js</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+
 		</div>
 
 		<div class="row">
 			<div class="col-md-12 logo text-center">
 				<div class="wedge-6x"></div>
 				{{>logo_juste}}
-				<p class="tiny">Created by @gottwik under the MIT License</p>
+				<p>Created by @gottwik under the MIT License</p>
 			</div>
 		</div>
 

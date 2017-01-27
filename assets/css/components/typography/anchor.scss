@@ -11,6 +11,12 @@ a {
 			top: 7px;
 			margin-right: 10px;
 			transition: transform $standard-transition;
+
+			&.small {
+				@include font-size(icon, true);
+				top: 0;
+				margin-right: 6px;
+			}
 		}
 
 	}

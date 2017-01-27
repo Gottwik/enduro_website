@@ -7,13 +7,20 @@
 		<div class="panel">
 			{{#blog}}
 				{{#each this}}
-					<article>
+					<article class="blog_article_teaser">
 						<div class="article_body">
-							<a href="/blog/{{page_slug}}"><h2>{{content.title}}</h2></a>
-							<h5>{{content.date}}</h5>
-							<div class="wedge-3x"></div>
-							{{{content.teaser.abstracted_content.marked_doc}}}
-							<a href="/blog/{{page_slug}}">Read more...</a>
+							<div class="row">
+								<div class="col-md-4">
+									<img class="img-fluid" src="https://images.pexels.com/photos/236830/pexels-photo-236830.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb">
+								</div>
+								<div class="col-md-8">
+									<a href="/blog/{{page_slug}}"><h2>{{content.title}}</h2></a>
+									<h5>{{content.date}}</h5>
+									<div class="wedge"></div>
+									{{{content.teaser.abstracted_content.marked_doc}}}
+									<a href="/blog/{{page_slug}}">Read more...</a>
+								</div>
+							</div>
 						</div>
 					</article>
 				{{/each}}

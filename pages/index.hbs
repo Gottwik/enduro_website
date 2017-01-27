@@ -38,4 +38,15 @@
 			</div>
 		</div>
 
+		<script type="text/javascript">
+			ga('send', 'event', 'index_background_image', 'visit', 'newyorkvideo')
+
+			var buttons = document.querySelectorAll('.demo-button-area .btn')
+			for (var i = 0; i < buttons.length; i++) {
+				buttons[i].addEventListener('click', function () {
+					ga('send', 'event', 'index_background_image', 'goal', 'newyorkvideo')
+				})
+			}
+		</script>
+
 {{/body}}
