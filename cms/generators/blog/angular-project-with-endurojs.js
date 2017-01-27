@@ -41,7 +41,7 @@
 	teaser: {
 		doc: 'Believe it or not but I\'ve made several angular projects with enduro.js. Just take a look at [bricklabels.com](http://www.bricklabels.com). This guide helps you to set up an angular 1.x project. I\'ve never tried to set up angular 2 project, but if you did, let me know how it went.',
 		$image_type: 'image',
-		image: '',
+		image: 'https://s3-eu-west-1.amazonaws.com/enduro.website/direct_uploads/1485522044_3de38c1ab9551c4468800f13ea604386.jpg',
 		$abstracted_content_hidden: true,
 		abstracted_content: {
 			marked_doc: '<p>Believe it or not but I&#39;ve made several angular projects with enduro.js. Just take a look at <a href="http://www.bricklabels.com">bricklabels.com</a>. This guide helps you to set up an angular 1.x project. I&#39;ve never tried to set up angular 2 project, but if you did, let me know how it went.</p>\n',
