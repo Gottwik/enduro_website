@@ -128,6 +128,14 @@
 					label: 'temper'
 				}
 			]
+		},
+		{
+			label: 'Misc',
+			topics: [
+				{
+					label: 'Made with enduro'
+				}
+			]
 		}
 	]
 }

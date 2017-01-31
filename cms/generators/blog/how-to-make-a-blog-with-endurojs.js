@@ -36,7 +36,7 @@
 	teaser: {
 		doc: 'This is a short guide on how to get a simple blog up and running on your website in these easy 4 steps.',
 		$image_type: 'image',
-		image: '',
+		image: 'https://s3-eu-west-1.amazonaws.com/enduro.website/direct_uploads/1485523496_pexels-photo-115089.jpg',
 		$abstracted_content_hidden: true,
 		abstracted_content: {
 			marked_doc: '<p>This is a short guide on how to get a simple blog up and running on your website in these easy 4 steps.</p>\n',
