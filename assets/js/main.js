@@ -11,16 +11,16 @@ require.config({
 	},
 })
 
-require(['jquery'], function($) {
+require(['jquery'], function ($) {
 
-	$( document ).ready(function() {
-		$('code').each(function(i, inline) {
-			hljs.highlightBlock(inline);
-		});
-	});
+	$(document).ready(function () {
+		$('code').each(function (i, inline) {
+			hljs.highlightBlock(inline)
+		})
+	})
 
-	if($('.docs-list').length) {
-		require(['docnav', 'scroller'], function(docnav, scroller) {
+	if ($('.docs-list').length) {
+		require(['docnav', 'scroller'], function (docnav, scroller) {
 			scroller.init()
 			docnav.init(scroller)
 		})
