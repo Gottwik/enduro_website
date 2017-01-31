@@ -41,7 +41,7 @@
 	teaser: {
 		doc: 'Enduro.js provides multicultural pages out-of-the-box. Follow this short guide to learn how to set it up',
 		$image_type: 'image',
-		image: '',
+		image: 'https://s3-eu-west-1.amazonaws.com/enduro.website/direct_uploads/1485522378_aec-1822525_640.jpg',
 		$abstracted_content_hidden: true,
 		abstracted_content: {
 			marked_doc: '<p>Enduro.js provides multicultural pages out-of-the-box. Follow this short guide to learn how to set it up</p>\n',
