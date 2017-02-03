@@ -4,5 +4,6 @@
 	"s3": {
 		"bucket": "enduro.website",
 		"region": "eu-west-1"
-	}
+	},
+	"juicebox_enabled": true
 }
