@@ -101,7 +101,7 @@
 					label: 'Heroku'
 				},
 				{
-					label: 'Deploying static pages'
+					label: 'Static pages'
 				}
 			]
 		},
