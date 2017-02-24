@@ -1,0 +1,32 @@
+{{#>body}}
+
+	<div class="wedge-8x"></div>
+
+	<div class="page-wrapper text-center">
+		<div class="page-container">
+			<div class="row">
+				{{#each global.themes}}
+					<div class="col-md-6 theme">
+						<div class="wedge-3x"></div>
+						<img class="img-fluid" src="{{preview_image}}">
+						<h2 class="short">{{name}}</h2>
+						<p>{{description}}</p>
+						<div class="tag_holder">
+							{{#each tags}}
+								<div class="bubble">{{tag}}</div>
+							{{/each}}
+						</div>
+						<div class="wedge-2x"></div>
+
+						<code>$ enduro theme {{name}}</code>
+
+						<a class="btn ghost" download="gz_link">Download</a>
+						<div class="wedge-3x"></div>
+					</div>
+				{{/each}}
+			</div>
+		</div>
+	</div>
+
+
+{{/body}}

@@ -44,4 +44,10 @@ a {
 		}
 	}
 
+	&.btn,
+	&.btn:visited,
+	&.btn:link {
+		color: inherit
+	}
+
 }

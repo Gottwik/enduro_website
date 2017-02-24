@@ -1,5 +1,8 @@
 var local_app = function () {}
 
+// vendor dependencies
+var _ = require('lodash')
+
 local_app.prototype.init = function (app) {
 
 	app.get('/theme_manager/get_all_themes', (req, res) => {
@@ -17,8 +20,9 @@ local_app.prototype.init = function (app) {
 
 		enduro.flat.load('global/theme_manager/themes')
 			.then((themes) => {
-				if (theme_name in themes.themes) {
-					res.send({ found: true, theme_info: themes.themes[theme_name] })
+				var theme = _.find(themes.themes, { name: theme_name })
+				if (themes) {
+					res.send({ found: true, theme_info: theme })
 				} else {
 					res.send({ found: false })
 				}

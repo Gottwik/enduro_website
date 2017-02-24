@@ -1,17 +1,19 @@
 {
   "name": "enduro_website",
   "version": "1.0.0",
-  "description": "",
+  "description": "Official website for enduro.js",
+  "repository": "https://github.com/Gottwik/enduro_website",
   "main": "assets/vendor/enduro/index.js",
   "scripts": {
     "postinstall": "./node_modules/bower/bin/bower install",
     "start": "node_modules/.bin/enduro start"
   },
-  "author": "KISKA",
-  "license": "ISC",
+  "author": "Martin Gottweis",
+  "license": "MIT",
   "dependencies": {
     "bower": "^1.7.7",
     "enduro": "1.2.17",
+    "lodash": "^4.17.4",
     "marked": "^0.3.6"
   }
 }
