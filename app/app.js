@@ -2,33 +2,29 @@ var local_app = function () {}
 
 // vendor dependencies
 var _ = require('lodash')
+var path = require('path')
+var mongo_client = require('mongodb').MongoClient
+var glob = require('glob')
+
+global.theme_manager = require('./theme_manager/theme_manager')
+
+// constants
+var DATABASE_URL = (global.config.secret && global.config.secret.DATABASE_URL) || process.env.DATABASE_URL
 
 local_app.prototype.init = function (app) {
 
-	app.get('/theme_manager/get_all_themes', (req, res) => {
+	// try to connect to mongodb
+	mongo_client.connect(DATABASE_URL, function (err, mongo_db) {
+		if (err) { console.log(err) }
 
-		enduro.flat.load('global/theme_manager/themes')
-			.then((themes) => {
-				res.send(themes.themes)
-			})
-
+		theme_manager.init(mongo_db)
 	})
 
-	app.get('/theme_manager/get_theme_by_name/:theme_name', (req, res) => {
-
-		var theme_name = req.params.theme_name
-
-		enduro.flat.load('global/theme_manager/themes')
-			.then((themes) => {
-				var theme = _.find(themes.themes, { name: theme_name })
-				if (themes) {
-					res.send({ found: true, theme_info: theme })
-				} else {
-					res.send({ found: false })
-				}
-			})
-
+	// hook up /theme_manager endpoints
+	glob.sync(path.join(CMD_FOLDER, 'app', 'theme_manager', 'endpoints', '**', '*.js')).forEach((file) => {
+		require(path.resolve(file)).init(app)
 	})
+
 }
 
 module.exports = new local_app()

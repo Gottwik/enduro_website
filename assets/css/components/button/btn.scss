@@ -10,6 +10,18 @@
 	i {
 		margin-top: -5px;
 		margin-bottom: 10px;
+
+		&.small {
+			margin-top: 0;
+			margin-bottom: 0;
+			margin-left: -15px;
+			margin-right: 15px;
+
+			&:before {
+				position: relative;
+				top: 1px;
+			}
+		}
 	}
 
 	// modifiers
@@ -28,6 +40,10 @@
 	&.ghost {
 		border: 1px solid $black;
 		background-color: transparent;
+	}
+
+	&.icon {
+		padding-right: 18px;
 	}
 
 	// environments

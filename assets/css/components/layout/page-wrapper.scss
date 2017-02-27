@@ -7,6 +7,10 @@
 		background-color: $primary-color;
 		color: $white;
 
+		a {
+			text-decoration: underline;
+		}
+
 		&.secondary {
 			background-color: $secondary-color;
 			color: $black;
