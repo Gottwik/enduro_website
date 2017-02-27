@@ -1,5 +1,5 @@
 // * ———————————————————————————————————————————————————————— * //
-// * 	/get_all_themes endpoint
+// * 	/theme_manager/get_all_themes endpoint
 // * ———————————————————————————————————————————————————————— * //
 var add_part_endpoint = function () {}
 

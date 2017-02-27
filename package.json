@@ -16,6 +16,7 @@
     "glob": "^7.1.1",
     "lodash": "^4.17.4",
     "marked": "^0.3.6",
-    "mongodb": "^2.2.24"
+    "mongodb": "^2.2.24",
+    "request-promise": "^4.1.1"
   }
 }

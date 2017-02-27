@@ -8,7 +8,7 @@ add_part_endpoint.prototype.init = function (app) {
 
 		var theme_name = req.params.theme_name
 
-		theme_manager.increase_downloads_by_theme_name(theme_name)
+		theme_manager.increase_downloads_by_theme_name(theme_name, req)
 
 		enduro.flat.load('global/theme_manager/themes')
 			.then((themes) => {
