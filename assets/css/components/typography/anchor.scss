@@ -24,7 +24,6 @@ a {
 	&:focus,
 	&:hover {
 		text-decoration: none;
-
 	}
 
 	// modifiers
@@ -44,6 +43,11 @@ a {
 		}
 	}
 
+	&.no_underline {
+		text-decoration: none !important;
+	}
+
+	// combos
 	&.btn,
 	&.btn:visited,
 	&.btn:link {

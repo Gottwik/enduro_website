@@ -9,6 +9,9 @@
 				},
 				{
 					label: 'Enduro.js for managers'
+				},
+				{
+					label: 'Themes'
 				}
 			]
 		},

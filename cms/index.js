@@ -1,25 +1,8 @@
 {
-	// background_video: 'https://0.s3.envato.com/h264-video-previews/42802428-32ec-4e93-bc6d-2a573da62c17/12323808.mp4',
-	// background_video: 'https://0.s3.envato.com/h264-video-previews/cf8bb811-cdcf-45c5-a313-025db281f290/16106739.mp4',
-	// background_video: 'https://0.s3.envato.com/h264-video-previews/21cf58a7-6977-4915-bc22-64fd49fecc4f/9678941.mp4',
-	// background_video: 'https://0.s3.envato.com/h264-video-previews/26b922c7-d04f-446d-a6db-3e3ee5addb1a/9340813.mp4',
-	// background_video: 'https://0.s3.envato.com/h264-video-previews/01fc87a6-74c6-4f74-b95e-1fb0afd13bd2/9554072.mp4',
-	// background_video: 'https://0.s3.envato.com/h264-video-previews/13afd6f8-6802-11e3-826a-005056923f83/6431441.mp4',
-	// background_video: 'https://0.s3.envato.com/h264-video-previews/725109.mp4',
-	// background_video: 'https://0.s3.envato.com/h264-video-previews/3469563.mp4',
-	// background_video: 'https://0.s3.envato.com/h264-video-previews/1615834.mp4',
-	// background_video: 'https://0.s3.envato.com/h264-video-previews/b2fc110c-2a29-11e3-ba2a-005056923f83/5736864.mp4',
-	// background_video: 'https://0.s3.envato.com/h264-video-previews/dc89f69a-8327-41e6-bc41-7fa41449b0f6/17129909.mp4',
-	// background_video: 'https://0.s3.envato.com/h264-video-previews/4574d9e8-0126-4251-a4a7-d05167f75eab/15065656.mp4',
-	// background_video: 'https://0.s3.envato.com/h264-video-previews/8007fa0e-39fa-46a1-9ec8-ab35e573cd18/10938654.mp4',
-	// background_video: 'https://0.s3.envato.com/h264-video-previews/fd474dc2-21bd-11e3-bb01-005056923f81/5652314.mp4',
-	// background_video: 'https://0.s3.envato.com/h264-video-previews/dc89f69a-8327-41e6-bc41-7fa41449b0f6/17129909.mp4',
 	background_video: 'https://s3-eu-west-1.amazonaws.com/enduro.website/direct_uploads/1473692861_Skyline.mp4',
-
-
 	$background_video_poster_type: 'image',
 	background_video_poster: 'https://s3-eu-west-1.amazonaws.com/enduro.website/direct_uploads/1473748977_videobg.jpg',
 	heading: 'Enduro.js',
 	tagline: 'Minimalistic, lean & mean, node.js cms',
-	features_heading: 'Why enduro?',
+	features_heading: 'Why enduro?'
 }
