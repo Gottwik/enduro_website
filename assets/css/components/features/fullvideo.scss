@@ -8,4 +8,8 @@
 	left: 50%; /* % of surrounding element */
     top: 50%;
     transform: translate(-50%, -50%); /* % of current element */
+
+    @include media-breakpoint-down(sm) {
+		display: none;
+	}
 }
