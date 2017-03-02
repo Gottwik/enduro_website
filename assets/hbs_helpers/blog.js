@@ -1,7 +1,7 @@
 var _ = require('lodash')
 var Promise = require('bluebird')
 
-__templating_engine.registerHelper('blog', function (options) {
+enduro.templating_engine.registerHelper('blog', function (options) {
 
 	var pages
 	return enduro.pagelist_generator.get_cms_list()
