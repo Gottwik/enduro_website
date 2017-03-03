@@ -4,7 +4,7 @@ var Promise = require('bluebird')
 enduro.templating_engine.registerHelper('blog', function (options) {
 
 	var pages
-	return enduro.pagelist_generator.get_cms_list()
+	return enduro.api.pagelist_generator.get_cms_list()
 		.then((pagelist) => {
 			var get_content_promises = []
 			pages = _.chain(pagelist.structured.blog)
@@ -14,7 +14,7 @@ enduro.templating_engine.registerHelper('blog', function (options) {
 				var page = pages[page_id]
 
 				function get_content (page) {
-					get_content_promises.push(enduro.flat.load(page.fullpath).then((content) => { page.content = content }))
+					get_content_promises.push(enduro.api.flat.load(page.fullpath).then((content) => { page.content = content }))
 				}
 
 				get_content(page)

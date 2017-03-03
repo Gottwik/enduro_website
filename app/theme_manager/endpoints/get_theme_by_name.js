@@ -3,6 +3,9 @@
 // * ———————————————————————————————————————————————————————— * //
 var add_part_endpoint = function () {}
 
+// vendor dependencies
+var _ = require('lodash')
+
 add_part_endpoint.prototype.init = function (app) {
 	app.get('/theme_manager/get_theme_by_name/:theme_name', (req, res) => {
 
@@ -16,7 +19,7 @@ add_part_endpoint.prototype.init = function (app) {
 		}
 
 		// gets all theme
-		enduro.flat.load('global/theme_manager/themes')
+		enduro.api.flat.load('global/theme_manager/themes')
 			.then((themes) => {
 
 				// tries to find the theme by theme name

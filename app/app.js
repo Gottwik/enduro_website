@@ -9,7 +9,7 @@ var glob = require('glob')
 global.theme_manager = require('./theme_manager/theme_manager')
 
 // constants
-var DATABASE_URL = (global.config.secret && global.config.secret.DATABASE_URL) || process.env.DATABASE_URL
+var DATABASE_URL = (enduro.config.secret && enduro.config.secret.DATABASE_URL) || process.env.DATABASE_URL
 
 local_app.prototype.init = function (app) {
 
@@ -21,7 +21,7 @@ local_app.prototype.init = function (app) {
 	})
 
 	// hook up /theme_manager endpoints
-	glob.sync(path.join(CMD_FOLDER, 'app', 'theme_manager', 'endpoints', '**', '*.js')).forEach((file) => {
+	glob.sync(path.join(enduro.project_path, 'app', 'theme_manager', 'endpoints', '**', '*.js')).forEach((file) => {
 		require(path.resolve(file)).init(app)
 	})
 
