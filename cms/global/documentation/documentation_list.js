@@ -105,6 +105,9 @@
 				},
 				{
 					label: 'Static pages'
+				},
+				{
+					label: 'Netlify'
 				}
 			]
 		},
