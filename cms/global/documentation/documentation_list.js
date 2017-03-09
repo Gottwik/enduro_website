@@ -94,6 +94,9 @@
 				},
 				{
 					label: 'Termination'
+				},
+				{
+					label: 'List of admin control types'
 				}
 			]
 		},
