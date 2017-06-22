@@ -25,6 +25,11 @@ local_app.prototype.init = function (app) {
 		require(path.resolve(file)).init(app)
 	})
 
+	app.get('/.well-known/acme-challenge/:content', function(req, res) {
+		res.send('sQ3JynaahogISlbMHgHnJxMS71nuJe40kd9dIsnZuT4.aPQQFbg-VpHf30uqulf1lthtKZVB6jy01SchmHmwCh8')
+	})
+
 }
+
 
 module.exports = new local_app()
