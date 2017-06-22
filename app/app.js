@@ -19,16 +19,6 @@ local_app.prototype.init = function (app) {
 
 		theme_manager.init(mongo_db)
 	})
-
-	// hook up /theme_manager endpoints
-	glob.sync(path.join(enduro.project_path, 'app', 'theme_manager', 'endpoints', '**', '*.js')).forEach((file) => {
-		require(path.resolve(file)).init(app)
-	})
-
-	app.get('/.well-known/acme-challenge/:content', function(req, res) {
-		res.send('sQ3JynaahogISlbMHgHnJxMS71nuJe40kd9dIsnZuT4.aPQQFbg-VpHf30uqulf1lthtKZVB6jy01SchmHmwCh8')
-	})
-
 }
 
 
