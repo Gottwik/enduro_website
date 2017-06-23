@@ -19,7 +19,11 @@ local_app.prototype.init = function (app) {
 
 		theme_manager.init(mongo_db)
 	})
-}
 
+	// hook up /theme_manager endpoints
+	glob.sync(path.join(enduro.project_path, 'app', 'theme_manager', 'endpoints', '**', '*.js')).forEach((file) => {
+		require(path.resolve(file)).init(app)
+	})
+}
 
 module.exports = new local_app()
