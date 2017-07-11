@@ -15,7 +15,7 @@ parts_manager.prototype.increase_downloads_by_theme_name = function (theme_name,
 	self.themedownloads_collection.update(
 		{ name: theme_name },
 		{ $inc: { downloads: 1 }},
-		{ upsert:true }
+		{ upsert: true }
 	)
 
 	var ip = req.ip

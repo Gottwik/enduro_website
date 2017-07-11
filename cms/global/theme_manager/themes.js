@@ -25,6 +25,26 @@
 					tag: 'jobhunting'
 				}
 			]
+		},
+		{
+			name: 'enblog',
+			$preview_image_type: 'image',
+			preview_image: 'https://d32ujqjov16ho0.cloudfront.net/direct_uploads/1499771480_image.png',
+			description: 'Dead simple yet custmizable enduro.js blog',
+			author: 'Cosmo Myzrail Gorynych',
+			git_repository: 'https://github.com/CosmoMyzrailGorynych/enblog_theme.git',
+			gz_link: 'https://github.com/CosmoMyzrailGorynych/enblog_theme/archive/master.zip',
+			tags: [
+				{
+					tag: 'blog'
+				},
+				{
+					tag: 'personal'
+				},
+				{
+					tag: 'travel'
+				}
+			]
 		}
 	]
 }
