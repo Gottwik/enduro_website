@@ -2,6 +2,8 @@
 
 Hosted here: http://endurojs.com/
 
+**Other repositories:** [Enduro](https://github.com/Gottwik/Enduro) • [samples](https://github.com/Gottwik/enduro_samples) • [Enduro admin](https://github.com/Gottwik/enduro_admin) • endurojs.com site
+
 ![Imgur](http://i.imgur.com/NM9ZODP.png)
 
 # Contributing
