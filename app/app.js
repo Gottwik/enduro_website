@@ -1,10 +1,9 @@
 var local_app = function () {}
 
 // vendor dependencies
-var _ = require('lodash')
-var path = require('path')
-var mongo_client = require('mongodb').MongoClient
-var glob = require('glob')
+const path = require('path')
+const mongo_client = require('mongodb').MongoClient
+const glob = require('glob')
 
 global.theme_manager = require('./theme_manager/theme_manager')
 

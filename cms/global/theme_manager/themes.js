@@ -33,7 +33,7 @@
 			description: 'Dead simple yet custmizable enduro.js blog',
 			author: 'Cosmo Myzrail Gorynych',
 			git_repository: 'https://github.com/CosmoMyzrailGorynych/enblog_theme.git',
-			gz_link: 'https://github.com/CosmoMyzrailGorynych/enblog_theme/archive/master.zip',
+			gz_link: 'https://github.com/CosmoMyzrailGorynych/enblog_theme/archive/master.tar.gz',
 			tags: [
 				{
 					tag: 'blog'
