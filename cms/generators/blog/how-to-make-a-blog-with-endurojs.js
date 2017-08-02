@@ -42,5 +42,8 @@
 			marked_doc: '<p>This is a short guide on how to get a simple blog up and running on your website in these easy 4 steps.</p>\n',
 			contents: []
 		}
+	},
+	meta: {
+		last_edited: 1501680325
 	}
 }

@@ -40,5 +40,8 @@
 				link: 'run-enduro'
 			}
 		]
+	},
+	meta: {
+		last_edited: 1501680325
 	}
 }

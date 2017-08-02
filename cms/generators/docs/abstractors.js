@@ -44,5 +44,8 @@
 				link: 'abstractors-and-multilingual-support'
 			}
 		]
+	},
+	meta: {
+		last_edited: 1501680325
 	}
 }

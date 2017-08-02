@@ -72,5 +72,8 @@
 			marked_doc: '<p>Let&#39;s talk about a website, say a simple blog such as this very page you are reading right now. It has a logo, menu, title, each blog entry has its own title, some images, date of creation and some text. All this content is usually stored in a database and <strong>each time somebody visits</strong>, the server gathers all this content, builds the page and serves it to the visitor.</p>\n',
 			contents: []
 		}
+	},
+	meta: {
+		last_edited: 1501680325
 	}
 }

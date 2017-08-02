@@ -144,5 +144,8 @@
 			$linkified_text_hidden: true,
 			linkified_text: 'Only the best ingredients were used when making Enduro. Handlebars, Sass, Gulp, Bootstrap, Angularjs, Browsersync, Express, Jasmine, Git, Npm and Heroku'
 		}
-	]
+	],
+	meta: {
+		last_edited: 1501680325
+	}
 }

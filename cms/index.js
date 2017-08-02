@@ -5,5 +5,8 @@
 	background_video_poster: 'https://d32ujqjov16ho0.cloudfront.net/direct_uploads/1473748977_videobg.jpg',
 	heading: 'Enduro.js',
 	tagline: 'Minimalistic, lean & mean, node.js cms',
-	features_heading: 'Why enduro?'
+	features_heading: 'Why enduro?',
+	meta: {
+		last_edited: 1501680325
+	}
 }

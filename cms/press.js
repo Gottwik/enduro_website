@@ -48,5 +48,8 @@
 			name: 'Built with enduro.js - retina',
 			filetype: 'png'
 		}
-	]
+	],
+	meta: {
+		last_edited: 1501680325
+	}
 }

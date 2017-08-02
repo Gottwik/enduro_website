@@ -17,5 +17,8 @@
 				link: 'contribute-to-enduro_admin'
 			}
 		]
+	},
+	meta: {
+		last_edited: 1501680325
 	}
 }

@@ -47,5 +47,8 @@
 			marked_doc: '<p>Enduro.js provides multicultural pages out-of-the-box. Follow this short guide to learn how to set it up</p>\n',
 			contents: []
 		}
+	},
+	meta: {
+		last_edited: 1501680325
 	}
 }

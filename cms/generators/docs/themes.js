@@ -42,5 +42,8 @@
 				link: 'creating-enduro-js-themes'
 			}
 		]
+	},
+	meta: {
+		last_edited: 1501680325
 	}
 }

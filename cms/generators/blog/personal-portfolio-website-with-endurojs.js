@@ -57,5 +57,8 @@
 			marked_doc: '<p>Whether you are a freelancer, photographer or maybe just looking for job, having a personal portfolio website can&#39;t hurt, can it? I will try to walk you through creating your own personal portfolio in under <strong>5 minutes</strong>. No javascript/html/css knowledge necessary!</p>\n',
 			contents: []
 		}
+	},
+	meta: {
+		last_edited: 1501680325
 	}
 }

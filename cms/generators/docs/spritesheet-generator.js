@@ -27,5 +27,8 @@
 				link: 'use-the-sprites'
 			}
 		]
+	},
+	meta: {
+		last_edited: 1501680325
 	}
 }

@@ -32,5 +32,8 @@
 				link: 'built-for-professionals'
 			}
 		]
+	},
+	meta: {
+		last_edited: 1501680325
 	}
 }

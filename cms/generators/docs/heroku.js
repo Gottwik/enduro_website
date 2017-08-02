@@ -11,5 +11,8 @@
 	abstracted_content: {
 		marked_doc: '<p>Enduro.js is ready to be used on heroku or any other cloud service.</p>\n<p>If you used <code>$ enduro create appname</code> you are all set up, enduro-wise. Just follow these steps:</p>\n<ul>\n<li>Init, add and commit your project to git <code>git init</code>, <code>git add .</code>, <code>git commit -m &#39;first commit&#39;</code></li>\n<li>Install <a href="https://toolbelt.heroku.com/">heroku&#39;s toolbelt</a></li>\n<li>Create new heroku app: <code>heroku create enduro-test-app</code></li>\n<li>Grab git link that heroku provided and push to it: <code>git push &lt;herokugit&gt; master</code></li>\n</ul>\n<p>Wow, we are done. You enduro.js app is live, with admin interface and everything.</p>\n',
 		contents: []
+	},
+	meta: {
+		last_edited: 1501680325
 	}
 }

@@ -22,5 +22,8 @@
 				link: 'example'
 			}
 		]
+	},
+	meta: {
+		last_edited: 1501680325
 	}
 }

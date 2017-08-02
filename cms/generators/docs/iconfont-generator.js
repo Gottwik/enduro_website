@@ -27,5 +27,8 @@
 				link: 'making-icons'
 			}
 		]
+	},
+	meta: {
+		last_edited: 1501680325
 	}
 }

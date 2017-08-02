@@ -50,5 +50,8 @@
 	},
 	$title_: 'Angular project with enduro.js',
 	$date_: 'Thursday, 26 January, 2017',
-	$published_: false
+	$published_: false,
+	meta: {
+		last_edited: 1501680325
+	}
 }

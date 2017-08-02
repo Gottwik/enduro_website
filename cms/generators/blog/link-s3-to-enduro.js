@@ -37,5 +37,8 @@
 			marked_doc: '<p>Linking enduro to aws s3 storage enables uploading images directly to s3 from the admin interface and using juicebox to version and backup site&#39;s content</p>\n',
 			contents: []
 		}
+	},
+	meta: {
+		last_edited: 1501680325
 	}
 }
