@@ -14,5 +14,6 @@ This website is made in [enduro.js](https://github.com/kiskadigitalmedia/Enduro)
 1. Install enduro globally - `$ npm install enduro -g`
 1. Make sure you have bower installed globally. If not run `$ npm install -g bower`
 1. Install bower dependencies - `$ bower install`
-1. Finally, start up enduro - `$ enduro`
+1. Install npm dependencies - `$ npm install`
+1. Finally, start up enduro - `$ enduro start` for production mode, or `$ enduro dev` for development mode.
 1. Done. Browser with the website loaded should appear.
