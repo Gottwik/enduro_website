@@ -145,9 +145,23 @@
 					label: 'Made with enduro'
 				}
 			]
+		},
+		{
+			label: 'Enduro bricks',
+			topics: [
+				{
+					label: 'Enduro bricks'
+				},
+				{
+					label: 'Context modifiers'
+				},
+				{
+					label: 'Brick processors'
+				}
+			]
 		}
 	],
 	meta: {
-		last_edited: 1501680325
+		last_edited: 1510623577
 	}
 }
